@@ -15,8 +15,47 @@
       "human" : {
         "lifespan" : 135,
         "lift_str" : 1100,
-        "max_spd" : 30
-        ""
+        "speed" : 30,
+        "text" : "<b>Human</b><br>Bipedal pursuit hunter, skilled with tools.<br>Max Lifespan of 135 years.<br>Max Lifting Strength of 1100 lbs.<br>Max Speed of 30 mph.<br>Natural Environment is Varied; species is very adaptable and thrives in all climates except arid desert and frozen poles.<br><br>-Gain an extra 5 points.<br>-Gain Endurance for Free.",
+        "free_skill" : "Endurance"
+      },
+      "android": {
+        "lifespan": "Potentially Limitless",
+        "lift_str": 1800,
+        "speed": 40,
+        "text": "<b>Android</b><br>Bipedal synthetic organism, skilled with tech.<br>All Androids are sapient, and can feel the same sensations that organics feel.<br>Do not age with frequent repair and upkeep.<br>Max Lifting Strength of 1800 lbs.<br>Max speed of 40 mph.<br>Natural Environment is Cold and Dry.<br><br>-Gain Tech Skills for Free.<br>-Gain Cybernetics (x4) for Free.",
+        "free_skill": "Cybernetics"
+      },
+      "asari": {
+        "lifespan": 950,
+        "lift_str": 1000,
+        "speed": 28,
+        "text": "<b>Asari</b><br>Bipedal Mono-sexed psionics.<br>Max Lifespan of 900-1000 years.<br>Max Lifting Strength of 1000 lbs.<br>Max Speed of 28 mph.<br>Natural Environment is Tropical, but are almost as adaptable as humans.<br><br>-Gain Beautiful for Free.<br>-Gain Psionic for Free.<br>",
+        "free_skill": {
+          "0" : "Beautiful",
+          "1" : "Psionics"
+        }
+      },
+      "gray": {
+        "lifespan": 210,
+        "lift_str": 900,
+        "speed": 27,
+        "text": "<b>Gray</b><br>Bald, gray skinned humanoids with large brains.<br>Developed advanced anti-gravity tech.<br>Large height range in Males: 3-6 feet tall.<br>Females are taller: 6-7 feet.<br>Max Lifespan of 210 years.<br>Max Lifting Strength of 900 lbs.<br>Max Speed of 27 mph.<br>Natural Environment is Dry and Arid.<br><br>-Gain Intelligence for Free.",
+        "free_skill": "Intelligence"
+      },
+      "aquoid": {
+        "lifespan": 120,
+        "lift_str": 1300,
+        "speed": 35,
+        "text": "",
+        "free_skill": ""
+      },
+      "qunari": {
+        "lifespan": 150,
+        "lift_str": 1600,
+        "speed": 35,
+        "text": "",
+        "free_skill": ""
       }
     }
   }

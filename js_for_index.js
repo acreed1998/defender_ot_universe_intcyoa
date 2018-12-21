@@ -3,7 +3,7 @@ $(document).ready(function () {
   $.getJSON('json_for_index.json', function (data) {
     console.log(data.opening);
     let openingtext = $("<div>");
-    openingtext.html(data.opening);
+    openingtext.html(data.race.choices.gray.text);
     $('body').append(openingtext);
   });
 });
