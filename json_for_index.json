@@ -47,15 +47,18 @@
         "lifespan": 120,
         "lift_str": 1300,
         "speed": 35,
-        "text": "",
-        "free_skill": ""
+        "text": "<b>Aquoid</b><br>Bipedal aquatic humanoids, genetic engineers.<br>Possess two repository systems.<br>Max Lifespan of 120 years.<br>Max Lifting Strength of 1300 lbs.<br>Max Speed of 35 mph.<br>Natural Environment is Tropical waters.<br>Natural Depth is between 300 and 1000 feet.<br><br>-Gain Immune for Free.<br>-Gain Enhanced Senses for Free.",
+        "free_skill": {
+          "0" : "Immune",
+          "1" : "Enhanced Senses"
+        }
       },
       "qunari": {
         "lifespan": 150,
         "lift_str": 1600,
         "speed": 35,
-        "text": "",
-        "free_skill": ""
+        "text": "<b>Qunari</b><br>Bipedal metallic-skinned horned warriors.<br>Rigid, militaristic, hyper-socialist society.<br>Most clothes are traditional and revealing.<br>Average height of 6'10.<br>Max Lifespan of 150 years.<br>Max Lifting Strength of 1600 lbs.<br>Max Speed of 35 mph.<br>Natural Environments is Hot and Tropical.<br><br>-Gain Combat Training for Free",
+        "free_skill": "Combat Training"
       }
     }
   }
