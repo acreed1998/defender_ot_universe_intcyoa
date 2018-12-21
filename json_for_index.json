@@ -3,8 +3,21 @@
   "special" : {
     "opening" : "<b>What makes you special?</b><br>Choose One",
     "choices" : {
-      "your_armor" : "<b>Your Armor</b><br>You stumbled upon an incredible suit of armor, one that is incredibly durable and has the firepower to rival and dreadnought. The suit seems to be powered by a strange, near-limitless cosmic energy.<br><br>-Power Armor is Free, Mech is 1/2 price<br>-All Restriction:Armor options are unlocked"
+      "your_armor" : "<b>Your Armor</b><br>You stumbled upon an incredible suit of armor, one that is incredibly durable and has the firepower to rival and dreadnought. The suit seems to be powered by a strange, near-limitless cosmic energy.<br><br>-Power Armor is Free, Mech is 1/2 price<br>-All Restriction:Armor options are unlocked",
+      "your_team" : "<b>Your Team</b><br>You and your crew are the biggest bad-asses in this super cluster. Each and every one of you are highly sought after by dozens of different governments, but you decided to band together and make a real difference.<br><br>-Your first two non-restricted Companions are Free<br>-All Restriction:Team options are unlocked",
+      "your_ship" : "<b>Your Ship</b><br>Your ship truly is something else; no one you've ever brought it to has ever seen anything like it before. It's nigh-indestructible, faster than any other ship of its class, and it's inhabited by the most powerful A.I. ever found or made.<br><br>-All ship class costs are cut in half<br>-All Restriction:Team options are unlocked",
+      "you" : "<b>You</b><br>You are a powerhouse, a living weapon, a one-person army. Nobody like you has ever existed before, you are a true outlier. What gives you this power, this cosmic might, is unknown.<br><br>-Peak Physical Fitness is Free<br>-All Restriction:You options are unlocked"
+    }
+  },
+  "race" : {
+    "opening" : "<b>Race</b><br>Choose One",
+    "choices" : {
+      "human" : {
+        "lifespan" : 135,
+        "lift_str" : 1100,
+        "max_spd" : 30
+        ""
+      }
     }
   }
-
 }
