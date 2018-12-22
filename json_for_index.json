@@ -133,57 +133,57 @@
       "piloting": {
         "ability": "Piloting",
         "points": 2,
-        "text": ""
+        "text": "<b>Piloting (Cost: 2 Points)</b><br> You graduated with top marks from your race’s best piloting academy.<br> You are an expert pilot with every manner of spacecraft"
       },
       "diplomatic": {
         "ability": "Diplomatic",
         "points": 2,
-        "text": ""
+        "text": "<b>Diplomatie (Cost: 2 Points)</b><br> You are an expert negotiator.<br> You could talk your way out of or through a hostage situation, a kidnapping, or a business deal.<br> You could be an amazing politician, and perhaps you were at one point."
       },
       "hidden_weapon": {
         "ability": "Hidden Weapon",
         "points": 2,
-        "text": ""
+        "text": "<b>Hidden Weapons (Cost: 2 Points)<br> Requires Cybernetics</b><br> For each cybernetic limb you have, you can hide one of the following retractable weapons in it:<br> a pistol<br> a hyper-durable blade<br> a short-range flamethrower<br> a buzz saw"
       },
       "psionic_enhancement": {
         "ability": "Psionic Enhancement",
         "points": 2,
-        "text": ""
+        "text": "<b>Psionic Enhancement (Cost: 2 Points)<br> (Requires: Psionics)</b><br> Your psionics can now boost your running speed by 10 mph, you can jump twice as far and high, and you can use psionics to temporarily boost your healing by up to 50%."
       },
       "elementalism": {
         "ability": "Elementalism",
         "points": 1,
-        "text": ""
+        "text": "<b>Elementalism (Cost: I Point)</b><br> Through either tech or psionics, you can heat up or cool down objects through touch, generate small to medium sized flames, create balls of ice, and generate the same amount of electricity as a taser."
       },
       "precision": {
         "ability": "Precision",
         "points": 2,
-        "text": ""
+        "text": "<b>Precision (Cost: 2 Points)</b><br> Both you and your hands are always steady and precise.This makes you a far better shot, and it’s easier to perform surgery or sautering.<br> With Psionics, you can carefully move delicate objects, unlock doors, and even snap bones from a distance."
       },
       "rage": {
         "ability": "Rage",
         "points": 3,
-        "text": ""
+        "text": "<b>Rage (Cost: 3 Points)</b><br> Through sheer determination and unbridled rage, you can ignore pain, you are harder to knock unconscious, and you absolutely refuse to die. If someone buried you alive, you would force yourself to dig your way out, no matter how deep down you are."
       },
       "super_soldier": {
         "ability": "Super Soldier",
         "points": 6,
-        "text": ""
+        "text": "<b>Super Soldier (Restriction:You) (Cost: 6 Points)</b><br> You can now lift over 5x your races max lifting strength, run at over 55 mph, and you heal 2x faster than normal.You are also now an expert marksman, your skin is tougher, and your reflexes are faster. If you lose a limb, a tooth, or an organ, it will slowly regrow and repair."
       },
       "superhuman": {
         "ability": "Superhuman",
         "points": 6,
-        "text": ""
+        "text": "<b>Superhuman (Restriction:You) (Cost: 6 Points)</b><br> Requires Psionics Your psionic powers are now so intense that you can lift up to 25 tons with them.<br> You can generate barriers so large they encompass ships, crush normal people into paste, and you can even fly using your telekinesis."
       },
       "armored": {
         "ability": "Armored",
         "points": 6,
-        "text": ""
+        "text": "<b>Armored (Restriction:You) (Cost: 6 Points)</b><br> Most of your chest and head have been replaced with unique, alien cybernetics, and nanobots flow through your blood. All of your mechanical parts automatically and rapidly repair, and your healing is boosted to 5x faster than normal.<br> All of your cybernetics are now tough enough to stop bullets."
       },
       "synergy": {
         "ability": "Synergy",
         "points": 5,
-        "text": ""
+        "text": "<b>Synergy (Restriction:Team) (Cost: 5 Points)</b><br> You and your teammates somehow have an unconscious psychic link; you all seem to know where the others are, even across light years.<br> You also sync up unbelievably well; you all can come up with and follow unspoken plans on the fly.Your team is unspeakably loyal to you, and you can sense each other’s injures."
       }
     }
   }
