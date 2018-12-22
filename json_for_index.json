@@ -61,5 +61,130 @@
         "free_skill": "Combat Training"
       }
     }
+  },
+  "abilities" : {
+    "opening" : "<b>Abilities</b><br><You start off at 1/3 of your race's Max Strength",
+    "choices" : {
+      "beloved" : {
+        "ability" : "Beloved",
+        "points" : 2,
+        "text" : "<b>Beloved (Cost: 2 Points)</b><br>You are naturally charismatic, and people naturally enjoy your pressence. Also, you're something of an intergalactic celebrity.<br>But you're more than just popular; you're inspiring. People are much more likely to help you or assist you.<br>Your team is more loyal to you now."
+      },
+      "psionics": {
+        "ability": "Psionics",
+        "points": 4,
+        "text": "<b>Psionics (Cost: 4 Points)</b><br>You can telekinetically lift and move objects up to 3x your race's max lifting strength. You can also form a psychic link through physical contact, allowing you to share emotions and memories with a person, and you can generate psionic barriers that protect against attacks."
+      },
+      "combat_training": {
+        "ability": "Combat Training",
+        "points": 3,
+        "text": "<b>Combat Training (Cost: 3 Points)</b><br>You have gone through the best your race has to offer in standard combat training.You know how to fire, clean, and maintain any firearm, drive any vehicle, and survive in prolonged combat.Also, your current strength is boosted to l/2 of your race's max strength, if it wasn't already."
+      },
+      "endurance": {
+        "ability": "Endurance",
+        "points": 2,
+        "text": "<b>Endurance (Cost: 2 Points)</b><br> You have some of the best endurance in the galaxy.<br> You could jog for dozens of miles without a break, go days without sleep, food, or water, and you only need to sleep for about 4-5 hours a night."
+      },
+      "tech_skills": {
+        "ability": "Tech Skills",
+        "points": 2,
+        "text": "<b>Tech Skills (Cost: 2 Points)</b><br> You are naturally skilled with electronics and technology.<br> You’re an expert hacker, you have advanced knowledge in and experience with engineering, and you’re far more skilled with energy weapons."
+      },
+      "cybernetics": {
+        "ability": "Cybernetics",
+        "points": 1,
+        "text": "<b>Cybernetics (Cost: 1 Point)</b><br> One of your limbs has been replaced with a cybernetic prosthetic.<br> This cybernetic limb can exert twice as much force as a standard limb. However, these limbs need to be repaired regularly, and unless you upgrade, you can’t get stronger. This can be taken up to 4 times."
+      },
+      "enhanced_senses": {
+        "ability": "Enhanced Senses",
+        "points": 2,
+        "text": "<b>Enhanced Senses (Cost: 2 Points)<b><br> With genetic and/or cybernetic engineering, your senses have been boosted.You can now see in the dark, your vision can pick out details from dozens of meters away, and you could hear a pin drop in a crowded room."
+      },
+      "intelligence": {
+        "ability": "Intelligence",
+        "points": 3,
+        "text": "<b>Intelligence (Cost: 3 Points)</b><br> You are a natural genius. In human terms, you have an I.Q. of around 150, and you have a photographic memory.<br> You are also naturally inventive, and you have a natural talent for theoretical physics and advanced mathematics."
+      },
+      "beautiful": {
+        "ability": "Beautiful",
+        "points": 2,
+        "text": "<b>Beautiful (Cost: 2 Points)</b><br> Your physical appearance turns heads everywhere you go.<br> Even people who aren't your own species are usually attracted to you.<br> For Androids; you look and feel far more lifelike.You could even have some of the right..‘parts’ installed."
+      },
+      "special_ops": {
+        "ability": "Special Ops",
+        "points": 4,
+        "text": "<b>Special Ops (Cost: 4 Points)<br> Requires Combat Training</b><br> You are one of the elite.<br> You have been heavily trained in unconventional warfare.<br> You are a master of sabotage, assassination, espionage, and you excel in high-risk combat situations."
+      },
+      "peak_physical_fitness": {
+        "ability": "Peak Physical Fitness",
+        "points": 4,
+        "text": "<b>Peak Physical Fitness (Cost: 4 Points)</b><br> Your lifting strength, speed, and lifespan are boosted to that of your race’s maximum.<br> You are the best your species has to offer."
+      },
+      "immune": {
+        "ability": "Immune",
+        "points": 2,
+        "text": "<b>Immune (Cost: 2 Points)</b><br> Thanks to genetic engineering, you heal 30% faster than normal people, and your immune system is much tougher.<br> You also have no genetic or birth defects.<br> Cannot be taken by androids."
+      },
+      "medical_expert": {
+        "ability": "Medical Expert",
+        "points": 3,
+        "text": "<b>Medical Expert (Cost: 3 Points)</b><br> You have a doctorate in a medical field of your choice from a prestigious university.<br> You know how to perform first aid and use advanced medical technology."
+      },
+      "piloting": {
+        "ability": "Piloting",
+        "points": 2,
+        "text": ""
+      },
+      "diplomatic": {
+        "ability": "Diplomatic",
+        "points": 2,
+        "text": ""
+      },
+      "hidden_weapon": {
+        "ability": "Hidden Weapon",
+        "points": 2,
+        "text": ""
+      },
+      "psionic_enhancement": {
+        "ability": "Psionic Enhancement",
+        "points": 2,
+        "text": ""
+      },
+      "elementalism": {
+        "ability": "Elementalism",
+        "points": 1,
+        "text": ""
+      },
+      "precision": {
+        "ability": "Precision",
+        "points": 2,
+        "text": ""
+      },
+      "rage": {
+        "ability": "Rage",
+        "points": 3,
+        "text": ""
+      },
+      "super_soldier": {
+        "ability": "Super Soldier",
+        "points": 6,
+        "text": ""
+      },
+      "superhuman": {
+        "ability": "Superhuman",
+        "points": 6,
+        "text": ""
+      },
+      "armored": {
+        "ability": "Armored",
+        "points": 6,
+        "text": ""
+      },
+      "synergy": {
+        "ability": "Synergy",
+        "points": 5,
+        "text": ""
+      }
+    }
   }
 }
