@@ -46,7 +46,19 @@ $(document).ready(function () {
     let armorSectionTableRow = $("<tr>").appendTo(armorSectionTable);
     let armorKeys = Object.keys(data.armor.choices);
     for (let i = 0; i < armorKeys.length; i++) {
-      let armorSectionTableCell = $("<td>").html(data.armor.choices[armorKeys[i]].text).addClass('noChoice').appendTo(armorSectionTableRow)
+      let armorSectionTableCell = $("<td>").html(data.armor.choices[armorKeys[i]].text).addClass('noChoice').appendTo(armorSectionTableRow);
+    }
+
+    // Armor Traits Section
+    let aTraitsSection = $("<section>").appendTo('body');
+    let aTraitsSectionOD = $("<div>").addClass('dialogue').html(data.armor_traits.opening).appendTo(armorSection);
+    let aTraitsSectionTable = $("<table>").addClass("armorTraitsTable").appendTo(aTraitsSection);
+    let aTraitsKeys = Object.keys(data.armor_traits.choices);
+    for (let i = 0; i < aTraitsKeys.length; i++) {
+      if (i % 4 === 0 || i === 0) {
+        var aTraitsSectionTableRow = $("<tr>").appendTo(aTraitsSectionTable);
+      }
+      let aTraitsSectionTableCell = $("<td>").html(data.armor_traits.choices[aTraitsKeys[i]].text).addClass('noChoice').appendTo(aTraitsSectionTableRow);
     }
     console.log(data.armor.opening);
   });
