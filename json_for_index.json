@@ -222,122 +222,122 @@
       "nanobots": {
         "trait": "Nanobots",
         "points": 1,
-        "text": ""
+        "text": "<b>Nanobots (Cost: 1 Point)</b><br> Your armor repairs itself slowly thanks to a cluster of nanobots that are released when the armor is damaged."
       },
       "survivalist": {
         "trait": "Survivalist",
         "points": 1,
-        "text": ""
+        "text": "<b>Survivalist (Cost: 1 Point)</b><br> Your armor houses dozens of small, retractable tools, including a knife, a blowtorch, a flare gun, a taser, various wrenches, screwdrivers, pliers, scissors, and more.<br> Your helmet also has night-vision and thermal imaging."
       },
       "dr_armor": {
         "trait": "Dr.Armor",
         "points": 1,
-        "text": ""
+        "text": "<b>Dr. Armor (Cost: 1 Point)</b><br> Your suit's medical suite carries healing gel, your armor can lock up limbs when it detects broken bones, it dispenses adrenaline and electric shocks when it detects heart failure, it can administer local anesthetics, and if you have an A.I, this suite is controlled by it."
       },
       "collapsible": {
         "trait": "Collapsible",
         "points": 1,
-        "text": ""
+        "text": "<b>Collapsible (Cost: I Point)</b><br> Your suit can easily snap together, and each piece can be collapsed into a small, light frame, and parts of your suit can be rolled back easily.<br> Your suit is much easier to hide and carry. For Mechs, this allows your suit to get much smaller for transport."
       },
       "enhanced_servos": {
         "trait": "Enhanced Servos",
         "points": 2,
-        "text": ""
+        "text": "<b>Enhanced Servos (Cost: 2 Points)</b><br> Powerful servos in your arms and legs boosts your strength in suit.<br> For Space Suit, you can carry 400 lbs more.<br> For Powered Armor, you can carry 800 lbs more.<br> For Mech, you can carry 1,400 lbs more."
       },
       "enhanced_shell": {
         "trait": "Enhanced Shell",
         "points": 2,
-        "text": ""
+        "text": "<b>Enhanced Shell (Cost: 2 Points)</b><br> Your suit's armor is replaced with a stronger, more durable substance, while also maintaining the same weight"
       },
       "enhanced_size": {
         "trait": "Enhanced Size",
         "points": 2,
-        "text": ""
+        "text": "<b>Enhanced Size (Cost: 2 Points)<br> Mech Only</b><br> Your suit is much bigger;<br> now your Mech is 50 feet tall, and can carry 3x as much as before."
       },
       "energy_systems": {
         "trait": "Energy Systems",
         "points": 1,
-        "text": ""
+        "text": "<b>Energy Systems (Cost: 1 Point)</b><br> Your suit is now run by a powerful, clean, efficient energy source.<br> Power Armor and Mech have miniaturized reactors on them now.<br> You could stay in your suit for hours, even days on end, and your suit is hardened against EMPs."
       },
       "elemental_gauntlets": {
         "trait": "Elemental Gauntlets",
         "points": 1,
-        "text": ""
+        "text": "<b>Elemental Gauntlets (Cost: I Point)</b><br> Your gauntlets can fire streams, blasts, and Jets of fire, ice, and electricity."
       },
       "kinetic_gauntlets": {
         "trait": "Kinetic Gauntlets",
         "points": 1,
-        "text": ""
+        "text": "<b>Kinetic Gauntlets (Cost: I Point)</b><br> Your gauntlets can fire blasts of kinetic force, allowing you to send shockwaves through the air or ground, knocking enemies back and off their feet.<br> This also significantly enhances your punches."
       },
       "energy_gauntlets": {
         "trait": "Energy Gauntlets",
         "points": 2,
-        "text": ""
+        "text": "<b>Energy Gauntlets (Cost: 2 Points)</b><br> You can fire blasts of energy from the palms of your hands.<br> These blasts carry heat, and can knock an armored human off their feet.This is effective against armored opponents, as the blasts cut through armor."
       },
       "firepower": {
         "trait": "Firepower",
         "points": 2,
-        "text": ""
+        "text": "<b>Firepower (Cost: 2 Points)</b><br> For Space Suits, you have a hidden machine gun in each gauntlet.<br> For PAs, you have the above and hidden missile launchers in your shoulder plates.<br> For Mechs, you have the above and a mounted minigun that slides out of your left: shoulder."
       },
       "kinetic_shield": {
         "trait": "Kinetic Shield",
         "points": 1,
-        "text": ""
+        "text": "<b>Kinetic Shield (Cost: 1 Point)</b><br> These shields automatically deflect any object with sufficient speed.<br> It will activate to deflect anything from crossbow bolts to bullets.<br> It does not block energy blasts, lasers, or immense heat, although energy weapons are rare, and are typically restricted for military use."
       },
       "energy_shield": {
         "trait": "Energy Shield",
         "points": 2,
-        "text": ""
+        "text": "<b>Energy Shield (Cost: 2 Points)</b><br> These shields are stronger than kinetic shields, but take up more power.<br> They block both kinetic and energy weapons, and have some effect against immense heat and radiation."
       },
       "hardlight_shield": {
         "trait": "Hardlight Shield",
         "points": 1,
-        "text": ""
+        "text": "<b>Hardlight Shield (Cost: I Point)</b><br> These close-range shields will activate if anyone gets too close.<br> They are decent against guns, but are more suited towards close quarter combat as they hold closer to the body and block both punches and melee attacks."
       },
       "smart_armor": {
         "trait": "Smart Armor",
         "points": 2,
-        "text": ""
+        "text": "<b>Smart Armor (Cost: 2 Points)</b><br> Insulated, heat-resistant armor plating that detects incoming strikes and locks up and hardens to absorb the impact"
       },
       "tentacle": {
         "trait": "Tentacle",
         "points": 2,
-        "text": ""
+        "text": "<b>Tentacle (Cost: 2 Points)</b><br> Your suit houses a single, retractable metal tentacle that can extend from your back up to 4 feet, and can be used as an extra limb, a weapon, or can be used with your hacking.<br> Mechs can extend up to 10 feet, and have two tentacles."
       },
       "jump_jets": {
         "trait": "Jump Jets",
         "points": 2,
-        "text": ""
+        "text": "<b>Jump Jets (Cost: 2 Points)</b><br> You can launch yourself up to 30 feet forward and into the air thanks to these jets on your boots and back.You can also use these to move around in zero-G.<br> The distance is doubled for powered armors, and tripled for mechs."
       },
       "stealth": {
         "trait": "Stealth",
         "points": 2,
-        "text": ""
+        "text": "<b>Stealth (Cost: 2 Points)</b><br> Your suit muffles your footsteps and noises you make. It also comes with a built-in cloaking field that turns you invisible for a brief time.<br> This works on cameras, but you can still be picked up by motion detectors unless you have a cyberwarfare suite."
       },
       "cyberwarfare_suite": {
         "trait": "Cyberwarfare Suite",
         "points": 1,
-        "text": ""
+        "text": "<b>Cyberwarfare Suite (Cost: I Point)</b><br> Your suit has hacking systems that can be used to get through locked doors, disable security cameras and drones, and make armors malfunction.Your A.I. will control this suite if you have one."
       },
       "super_suit": {
         "trait": "Super Suit",
         "points": 6,
-        "text": ""
+        "text": "<b>Super Suit (Cost: 6 Points)<br> (Restriction: Armor)<br> PA or Mech only</b><br> Your strength in armor is boosted to the point where you could lift a frigate by yourself, and your built-in weapons are now strong enough to rival battleships. Your suit is also built out of hypermatter, making it extremely durable and it repairs itself over time."
       },
       "advanced_flight": {
         "trait": "Advanced Flight",
         "points": 6,
-        "text": ""
+        "text": "<b>Advanced Flight (Cost: 6 Points)<br> (Restriction: Armor)<br> Requires Jump Jets<br> PA or Mech only</b><br> Your armor can fly under its own power for days, and it can fly faster than any spaceship, as well as being capable of FTL jumps.<br> Your suit is durable enough to withstand and protect you from these speeds, as well as extreme heat."
       },
       "psychic_link": {
         "trait": "Psychic Link",
         "points": 6,
-        "text": ""
+        "text": "<b>Psychic Link (Cost: 6 Points)<br> (Restriction: Armor)<br> PA or Mech only</b><br> You can remotely, psychically connect to your armor, even across light years, and command it to come to you, wherever you are.<br> You also can activate your suit’s functions with just a thought, and your suit is now unhackable."
       },
       "amplifier": {
         "trait": "Amplifier",
         "points": 5,
-        "text": ""
+        "text": "<b>Amplifier (Restriction:You)<br> (Costs: 5 Points)<br> Requires Psionics</b><br> Your suit now syncs up to your body, amplifying your psionic abilities.<br> Now, when you are in your suit you can lift and throw twice as much with your psionics, and your barriers can withstand ship-grade weaponry."
       }
     }
   }
