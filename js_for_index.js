@@ -39,11 +39,16 @@ $(document).ready(function () {
       let abilitiesSectionTableCell = $("<td>").html(data.abilities.choices[abilityKeys[i]].text).addClass('noChoice').appendTo(abilitiesSectionTableRow);
     }
 
-    for (let key in data.abilities.choices) {
-      let openingtext = $("<div>");
-      openingtext.html(data.abilities.choices[key].text);
-      $('body').append(openingtext);
+    // Armor Section
+    let armorSection = $("<section>").appendTo('body');
+    let armorSectionOD = $("<div>").addClass('dialogue').html(data.armor.opening).appendTo(armorSection);
+    let armorSectionTable = $("<table>").addClass("armorTable").appendTo(armorSection);
+    let armorSectionTableRow = $("<tr>").appendTo(armorSectionTable);
+    let armorKeys = Object.keys(data.armor.choices);
+    for (let i = 0; i < armorKeys.length; i++) {
+      let armorSectionTableCell = $("<td>").html(data.armor.choices[armorKeys[i]].text).addClass('noChoice').appendTo(armorSectionTableRow)
     }
+    console.log(data.armor.opening);
   });
 
 });
