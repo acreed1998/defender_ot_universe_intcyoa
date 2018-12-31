@@ -215,5 +215,130 @@
         "text": "<b>Mech Suit (Cost: 8 Points)</b><br> 11 ft tall armored suit.<br> Slow, big, and durable.<br> Allows you to carry up to 10,000 lbs.<br> Needs to be recharged after 3 hours of use.<br> Has internal compartments for weapons. <br>Can fit 12 traits."
       }
     }
+  },
+  "armor_traits" : {
+    "opening" : "<b>Armor Traits</b>",
+    "choices" : {
+      "nanobots": {
+        "trait": "Nanobots",
+        "points": 1,
+        "text": ""
+      },
+      "survivalist": {
+        "trait": "Survivalist",
+        "points": 1,
+        "text": ""
+      },
+      "dr_armor": {
+        "trait": "Dr.Armor",
+        "points": 1,
+        "text": ""
+      },
+      "collapsible": {
+        "trait": "Collapsible",
+        "points": 1,
+        "text": ""
+      },
+      "enhanced_servos": {
+        "trait": "Enhanced Servos",
+        "points": 2,
+        "text": ""
+      },
+      "enhanced_shell": {
+        "trait": "Enhanced Shell",
+        "points": 2,
+        "text": ""
+      },
+      "enhanced_size": {
+        "trait": "Enhanced Size",
+        "points": 2,
+        "text": ""
+      },
+      "energy_systems": {
+        "trait": "Energy Systems",
+        "points": 1,
+        "text": ""
+      },
+      "elemental_gauntlets": {
+        "trait": "Elemental Gauntlets",
+        "points": 1,
+        "text": ""
+      },
+      "kinetic_gauntlets": {
+        "trait": "Kinetic Gauntlets",
+        "points": 1,
+        "text": ""
+      },
+      "energy_gauntlets": {
+        "trait": "Energy Gauntlets",
+        "points": 2,
+        "text": ""
+      },
+      "firepower": {
+        "trait": "Firepower",
+        "points": 2,
+        "text": ""
+      },
+      "kinetic_shield": {
+        "trait": "Kinetic Shield",
+        "points": 1,
+        "text": ""
+      },
+      "energy_shield": {
+        "trait": "Energy Shield",
+        "points": 2,
+        "text": ""
+      },
+      "hardlight_shield": {
+        "trait": "Hardlight Shield",
+        "points": 1,
+        "text": ""
+      },
+      "smart_armor": {
+        "trait": "Smart Armor",
+        "points": 2,
+        "text": ""
+      },
+      "tentacle": {
+        "trait": "Tentacle",
+        "points": 2,
+        "text": ""
+      },
+      "jump_jets": {
+        "trait": "Jump Jets",
+        "points": 2,
+        "text": ""
+      },
+      "stealth": {
+        "trait": "Stealth",
+        "points": 2,
+        "text": ""
+      },
+      "cyberwarfare_suite": {
+        "trait": "Cyberwarfare Suite",
+        "points": 1,
+        "text": ""
+      },
+      "super_suit": {
+        "trait": "Super Suit",
+        "points": 6,
+        "text": ""
+      },
+      "advanced_flight": {
+        "trait": "Advanced Flight",
+        "points": 6,
+        "text": ""
+      },
+      "psychic_link": {
+        "trait": "Psychic Link",
+        "points": 6,
+        "text": ""
+      },
+      "amplifier": {
+        "trait": "Amplifier",
+        "points": 5,
+        "text": ""
+      }
+    }
   }
 }
