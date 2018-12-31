@@ -28,7 +28,16 @@ $(document).ready(function () {
     }
 
     // Abilities Section
-    
+    let abilitiesSection = $("<section>").appendTo('body');
+    let abilitiesSectionOD = $("<div>").addClass('dialogue').html(data.abilities.opening).appendTo(abilitiesSection);
+    let abilitiesSectionTable = $("<table>").addClass("abilityTable").appendTo(abilitiesSection);
+    let abilityKeys = Object.keys(data.abilities.choices);
+    for (let i = 0; i < abilityKeys.length; i++) {
+      if (i % 4 === 0 || i === 0) {
+        var abilitiesSectionTableRow = $("<tr>").appendTo(abilitiesSectionTable);
+      }
+      let abilitiesSectionTableCell = $("<td>").html(data.abilities.choices[abilityKeys[i]].text).addClass('noChoice').appendTo(abilitiesSectionTableRow);
+    }
 
     for (let key in data.abilities.choices) {
       let openingtext = $("<div>");
