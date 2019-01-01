@@ -486,5 +486,70 @@
         "text": "<b>Dreadnought (Cost: 10 Points)</b><br> Biggest ship, other than Gray motherships. Slower than battleships, can’t land on most planets.<br> Immense armor and weaponry.<br> 900+ meters, typical limit is 1800 meters.<br> Can fit 12 traits and 2 main weapons."
       }
     }
+  },
+  "style" : {
+    "opening" : "<b>Style</b><br>Choose one, your race's style is Free",
+    "choices" : {
+      "human": {
+        "type": "Human",
+        "points": 2,
+        "free_traits": {
+          "0": "Kinetic Shields",
+          "1": "Rail Guns"
+        },
+        "speed": 20,
+        "text": ""
+      },
+      "android": {
+        "type": "Android",
+        "points": 2,
+        "free_traits": {
+          "0": "Kinetic Shields",
+          "1": "Particle Beams"
+        },
+        "speed": 21,
+        "text": ""
+      },
+      "asari": {
+        "type": "Asari",
+        "points": 2,
+        "free_traits": {
+          "0": "Energy Shields",
+          "1": "Mass Accelerators"
+        },
+        "speed": 22,
+        "text": ""
+      },
+      "gray": {
+        "type": "Gray",
+        "points": 4,
+        "free_traits": {
+          "0": "Energy Shields",
+          "1": "Particle Beams"
+        },
+        "speed": 24,
+        "text": ""
+      },
+      "aquoid": {
+        "type": "Aquoid",
+        "points": 2,
+        "free_traits": {
+          "0": "Kinetic Shields",
+          "1": "Mass Accelerators"
+        },
+        "speed": 20,
+        "text": ""
+      },
+      "qunari": {
+        "type": "Qunari",
+        "points": 2,
+        "free_traits": {
+          "0": "Energy Shields",
+          "1": "Casaba Howitzers"
+        },
+        "speed": 22,
+        "text": ""
+      }
+    }
   }
 }
