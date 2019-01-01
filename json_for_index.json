@@ -347,102 +347,102 @@
       "hardlight_blade": {
         "name": "Hardlight Blade",
         "points": 1,
-        "text": ""
+        "text": "<b>Hardlight Blade (Cost: 1 Point)</b><br> A blade of hardlight that you can project from your suit.<br> This blade is superheated, and can carve through bodies easily."
       },
       "phaser": {
         "name": "Phaser",
         "points": 1,
-        "text": ""
+        "text": "<b>Phaser (Cost: 1 Point)</b> A rechargeable energy weapon that interacts with its targets nervous system, and can be set to stun, knock out or kill."
       },
       "pulse_rifle": {
         "name": "Pulse Rifle",
         "points": 1,
-        "text": ""
+        "text": "<b>Puise Rifle (Cost: 1 Point)</b> This assault rifle fires tiny balls of energy at an extremely fast rate, this gives it low accuracy and moderate kickback.<br> Very good against shields."
       },
       "heavy_flamethrower": {
         "name": "Heavy Flamethrower",
         "points": 1,
-        "text": ""
+        "text": "<b>Heavy Flamethrower (Cost: 1 Point)</b><br> This flamethrower generates a powerful jet of plasma, incinerating everything within a 12 foot cone of the nozzle."
       },
       "kinetic_staff": {
         "name": "Kinetic Staff",
         "points": 2,
-        "text": ""
+        "text": "<b>Kinetic Staff (Cost: 2 Points)</b><br> This staff, when the end is slammed into a person or a surface, generates a blast of kinetic energy that sends people flying back."
       },
       "pulse_pistols": {
         "name": "Pulse Pistols",
         "points": 2,
-        "text": ""
+        "text": "<b>Pulse Pistols (Cost: 2 Points)</b><br> These pistols fire tiny balls of energy at an extremely fast rate.<br> Thus, these pistols have low accuracy but minimal kickback.<br> Very good against shields."
       },
       "mag": {
         "name": "MAG",
         "points": 2,
-        "text": ""
+        "text": "<b>MAG (Cost: 2 Points)</b><br> This assault rifle uses magnets to accelerate bullets like a rail gun.<br> Has more kickback than most assault rifles, and hard to aim without a lot of strength, but hits like a sniper rifle."
       },
       "heavy_cryo_cannon": {
         "name": "Heavy Cryo Cannon",
         "points": 2,
-        "text": ""
+        "text": "<b>Heavy Cryo Cannon (Cost: 2 Points)</b><br> Fires balls of super-cooled goo that sticks to and instantly freezes onto any surface it hits.<br> Can cause hypothermia, frostbite, and death."
       },
       "mono_molecular_blade": {
         "name": "Mono-molecular Blade",
         "points": 2,
-        "text": ""
+        "text": "<b>Mono-molecular Blade (Cost: 2 Points)</b><br> This hyper-thin blade is only a molecule thick, allowing it to cut through most armors with ease."
       },
       "tiger_sharks": {
         "name": "Tiger Sharks",
         "points": 2,
-        "text": ""
+        "text": "<b>Tiger Sharks (Cost: 2 Points)</b><br> Collapsible, easy to conceal energy pistols.<br> Balances firing speed and impact power.<br> Good accuracy, low recoil."
       },
       "falcon_sniper_rifle": {
         "name": "Falcon Sniper Rifle",
         "points": 2,
-        "text": ""
+        "text": "<b>Falcon Sniper Rifle (Cost: 2 Points)</b><br> Collapsible and easy to carry sniper rifle.<br> Uses mass alteration fields to fire a tiny shred of metal at a small fraction of the speed of light"
       },
       "pulse_grenade_launcher": {
         "name": "Pulse Grenade Launcher",
         "points": 2,
-        "text": ""
+        "text": "<b>Pulse Grenade Launcher (Cost: 2 Points)</b><br> Fires mini-pulse grenades that explode in a fireball of plasma."
       },
       "plasma_blade": {
         "name": "Plasma Blade",
         "points": 3,
-        "text": ""
+        "text": "<b>Plasma Blade (Cost: 3 Points)</b><br> This powerful energy weapon is easy to conceal, as it is just a handle until it is activated.<br> The 3-foot long plasma blades cut through bodies, armor, and shields with relative ease."
       },
       "magnum": {
         "name": "Magnum",
         "points": 3,
-        "text": ""
+        "text": "<b>Magnum (Cost: 3 Points)</b><br> Slow-firing pistol, fires a powerful blast of energy every 2 seconds."
       },
       "puma_energy_rifle": {
         "name": "PUMA Energy Rifle",
         "points": 3,
-        "text": ""
+        "text": "<b>PUMA Energy Rifle (Cost: 3 Points)</b><br> Long range energy rifle.<br> Fires bolts of plasma faster than a sniper, but is slower and more powerful than an assault rifle."
       },
       "large_pulse_laser": {
         "name": "Large Pulse Laser",
         "points": 3,
-        "text": ""
+        "text": "<b>Large Pulse Laser (Cost: 3 Points)</b><br> Heavy single-barreled laser cannon.<br> Very hard to aim. but chews through armor like paper.<br> Can be mounted onto a suit of Powered Armor by sliding it over one of the hands."
       },
       "uber_blade": {
         "name": "Uber Blade",
         "points": 3,
-        "text": ""
+        "text": "<b>Über Blade (Cost: 3 Points)</b><br> This blade is not only incredibly durable and extremely sharp, but a generator in the hilt causes the blade to vibrate at high frequencies, so when it hits a person, it tears right through them."
       },
       "the_panther": {
         "name": "The Panther",
         "points": 3,
-        "text": ""
+        "text": "<b>The Panther (Cost: 3 Points)</b><br> A long-range, high-powered energy pistol.<br> This pistol fires very quietly, making it great for stealth."
       },
       "particle_beam_rifle": {
         "name": "Particle Beam Rifle",
         "points": 3,
-        "text": ""
+        "text": "<b>Particle Beam Rifle (Cost: 3 Points)</b><br> This rifle fires a beam of energy that can hold steady for up to 8 seconds.<br> It does immense damage against both shields and armor."
       },
       "heavy_minigun": {
         "name": "Heavy Minigun",
         "points": 3,
-        "text": ""
+        "text": "<b>Heavy Minigun (Cost: 3 Points)</b><br> Much lighter and sleeker than the miniguns of old, but still weighs a couple dozen pounds.<br> Chews through people."
       }
     }
   }
