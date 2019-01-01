@@ -445,5 +445,46 @@
         "text": "<b>Heavy Minigun (Cost: 3 Points)</b><br> Much lighter and sleeker than the miniguns of old, but still weighs a couple dozen pounds.<br> Chews through people."
       }
     }
+  },
+  "ship" : {
+    "opening" : "<b>Ship</b><br>Pick one size",
+    "choices" : {
+      "frigate": {
+        "type": "Frigate",
+        "length": 200,
+        "decks": 5,
+        "traits": 6,
+        "main_weapons": 1,
+        "points": 4,
+        "text": ""
+      },
+      "cruiser": {
+        "type": "Cruiser",
+        "length": 500,
+        "decks": 8,
+        "traits": 8,
+        "main_weapons": 1,
+        "points": 6,
+        "text": ""
+      },
+      "battleship": {
+        "type": "Battleship",
+        "length": 900,
+        "decks": 12,
+        "traits": 10,
+        "main_weapons": 1,
+        "points": 8,
+        "text": ""
+      },
+      "dreadnought": {
+        "type": "Dreadnought",
+        "length": 1800,
+        "decks": 18,
+        "traits": 12,
+        "main_weapons": 2,
+        "points": 10,
+        "text": ""
+      }
+    }
   }
 }
