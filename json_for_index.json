@@ -456,7 +456,7 @@
         "traits": 6,
         "main_weapons": 1,
         "points": 4,
-        "text": "<b>Frigate (Cost: 4 Points)</b><br> Fast and Light, meant more for stealth, scouting, extraction, search-and-rescue, etc.<br> Between 100 and 200 meters long.<br> Typically has 3-5 decks.<br> Can fit 6 traits and I main weapon."
+        "text": "<b>Frigate (Cost: 4 Points)</b><br> Fast and Light, meant more for stealth, scouting, extraction, search-and-rescue, etc.<br> Between 100 and 200 meters long.<br> Typically has 3-5 decks.<br> Can fit 6 traits and 1 main weapon."
       },
       "cruiser": {
         "type": "Cruiser",
@@ -465,7 +465,7 @@
         "traits": 8,
         "main_weapons": 1,
         "points": 6,
-        "text": "<b>Cruiser (Cost: 6 Points)</b><br> Larger than a frigate, very popular as it balances armor with speed.<br> Between 300 and 500 meters long.<br> Typically has 5-8 decks.<br> Can fit 8 traits and I main weapon."
+        "text": "<b>Cruiser (Cost: 6 Points)</b><br> Larger than a frigate, very popular as it balances armor with speed.<br> Between 300 and 500 meters long.<br> Typically has 5-8 decks.<br> Can fit 8 traits and 1 main weapon."
       },
       "battleship": {
         "type": "Battleship",
@@ -474,7 +474,7 @@
         "traits": 10,
         "main_weapons": 1,
         "points": 8,
-        "text": "<b>Battleship (Cost: 8 Points)</b><br> 3/4ths the size of a dreadnought very large and very heavily armed, but still pretty slow and doesn’t have as much armor as the dreadnought.<br> Between 700 and 900 meters long.<br> Typically has 8-12 decks.<br> Can fit 10 traits and I main weapon."
+        "text": "<b>Battleship (Cost: 8 Points)</b><br> 3/4ths the size of a dreadnought very large and very heavily armed, but still pretty slow and doesn’t have as much armor as the dreadnought.<br> Between 700 and 900 meters long.<br> Typically has 8-12 decks.<br> Can fit 10 traits and 1 main weapon."
       },
       "dreadnought": {
         "type": "Dreadnought",
