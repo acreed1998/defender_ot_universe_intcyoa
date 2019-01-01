@@ -340,5 +340,110 @@
         "text": "<b>Amplifier (Restriction:You)<br> (Costs: 5 Points)<br> Requires Psionics</b><br> Your suit now syncs up to your body, amplifying your psionic abilities.<br> Now, when you are in your suit you can lift and throw twice as much with your psionics, and your barriers can withstand ship-grade weaponry."
       }
     }
+  },
+  "weapons" : {
+    "opening" : "<b>Weapons</b>",
+    "choices" : {
+      "hardlight_blade": {
+        "name": "Hardlight Blade",
+        "points": 1,
+        "text": ""
+      },
+      "phaser": {
+        "name": "Phaser",
+        "points": 1,
+        "text": ""
+      },
+      "pulse_rifle": {
+        "name": "Pulse Rifle",
+        "points": 1,
+        "text": ""
+      },
+      "heavy_flamethrower": {
+        "name": "Heavy Flamethrower",
+        "points": 1,
+        "text": ""
+      },
+      "kinetic_staff": {
+        "name": "Kinetic Staff",
+        "points": 2,
+        "text": ""
+      },
+      "pulse_pistols": {
+        "name": "Pulse Pistols",
+        "points": 2,
+        "text": ""
+      },
+      "mag": {
+        "name": "MAG",
+        "points": 2,
+        "text": ""
+      },
+      "heavy_cryo_cannon": {
+        "name": "Heavy Cryo Cannon",
+        "points": 2,
+        "text": ""
+      },
+      "mono_molecular_blade": {
+        "name": "Mono-molecular Blade",
+        "points": 2,
+        "text": ""
+      },
+      "tiger_sharks": {
+        "name": "Tiger Sharks",
+        "points": 2,
+        "text": ""
+      },
+      "falcon_sniper_rifle": {
+        "name": "Falcon Sniper Rifle",
+        "points": 2,
+        "text": ""
+      },
+      "pulse_grenade_launcher": {
+        "name": "Pulse Grenade Launcher",
+        "points": 2,
+        "text": ""
+      },
+      "plasma_blade": {
+        "name": "Plasma Blade",
+        "points": 3,
+        "text": ""
+      },
+      "magnum": {
+        "name": "Magnum",
+        "points": 3,
+        "text": ""
+      },
+      "puma_energy_rifle": {
+        "name": "PUMA Energy Rifle",
+        "points": 3,
+        "text": ""
+      },
+      "large_pulse_laser": {
+        "name": "Large Pulse Laser",
+        "points": 3,
+        "text": ""
+      },
+      "uber_blade": {
+        "name": "Uber Blade",
+        "points": 3,
+        "text": ""
+      },
+      "the_panther": {
+        "name": "The Panther",
+        "points": 3,
+        "text": ""
+      },
+      "particle_beam_rifle": {
+        "name": "Particle Beam Rifle",
+        "points": 3,
+        "text": ""
+      },
+      "heavy_minigun": {
+        "name": "Heavy Minigun",
+        "points": 3,
+        "text": ""
+      }
+    }
   }
 }
