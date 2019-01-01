@@ -237,7 +237,7 @@
       "collapsible": {
         "trait": "Collapsible",
         "points": 1,
-        "text": "<b>Collapsible (Cost: I Point)</b><br> Your suit can easily snap together, and each piece can be collapsed into a small, light frame, and parts of your suit can be rolled back easily.<br> Your suit is much easier to hide and carry. For Mechs, this allows your suit to get much smaller for transport."
+        "text": "<b>Collapsible (Cost: 1 Point)</b><br> Your suit can easily snap together, and each piece can be collapsed into a small, light frame, and parts of your suit can be rolled back easily.<br> Your suit is much easier to hide and carry. For Mechs, this allows your suit to get much smaller for transport."
       },
       "enhanced_servos": {
         "trait": "Enhanced Servos",
@@ -262,12 +262,12 @@
       "elemental_gauntlets": {
         "trait": "Elemental Gauntlets",
         "points": 1,
-        "text": "<b>Elemental Gauntlets (Cost: I Point)</b><br> Your gauntlets can fire streams, blasts, and Jets of fire, ice, and electricity."
+        "text": "<b>Elemental Gauntlets (Cost: 1 Point)</b><br> Your gauntlets can fire streams, blasts, and Jets of fire, ice, and electricity."
       },
       "kinetic_gauntlets": {
         "trait": "Kinetic Gauntlets",
         "points": 1,
-        "text": "<b>Kinetic Gauntlets (Cost: I Point)</b><br> Your gauntlets can fire blasts of kinetic force, allowing you to send shockwaves through the air or ground, knocking enemies back and off their feet.<br> This also significantly enhances your punches."
+        "text": "<b>Kinetic Gauntlets (Cost: 1 Point)</b><br> Your gauntlets can fire blasts of kinetic force, allowing you to send shockwaves through the air or ground, knocking enemies back and off their feet.<br> This also significantly enhances your punches."
       },
       "energy_gauntlets": {
         "trait": "Energy Gauntlets",
@@ -292,7 +292,7 @@
       "hardlight_shield": {
         "trait": "Hardlight Shield",
         "points": 1,
-        "text": "<b>Hardlight Shield (Cost: I Point)</b><br> These close-range shields will activate if anyone gets too close.<br> They are decent against guns, but are more suited towards close quarter combat as they hold closer to the body and block both punches and melee attacks."
+        "text": "<b>Hardlight Shield (Cost: 1 Point)</b><br> These close-range shields will activate if anyone gets too close.<br> They are decent against guns, but are more suited towards close quarter combat as they hold closer to the body and block both punches and melee attacks."
       },
       "smart_armor": {
         "trait": "Smart Armor",
@@ -317,7 +317,7 @@
       "cyberwarfare_suite": {
         "trait": "Cyberwarfare Suite",
         "points": 1,
-        "text": "<b>Cyberwarfare Suite (Cost: I Point)</b><br> Your suit has hacking systems that can be used to get through locked doors, disable security cameras and drones, and make armors malfunction.Your A.I. will control this suite if you have one."
+        "text": "<b>Cyberwarfare Suite (Cost: 1 Point)</b><br> Your suit has hacking systems that can be used to get through locked doors, disable security cameras and drones, and make armors malfunction.Your A.I. will control this suite if you have one."
       },
       "super_suit": {
         "trait": "Super Suit",
