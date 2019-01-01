@@ -498,7 +498,7 @@
           "1": "Rail Guns"
         },
         "speed": 20,
-        "text": ""
+        "text": "<b>Human (Cost: 2 Points)</b><br> Blocky and gray, typically very militaristic.<br> Uses Kinetic Shields and Rail Guns (are Free).<br> Typical FTL speed is 18-20 LY per Day."
       },
       "android": {
         "type": "Android",
@@ -508,7 +508,7 @@
           "1": "Particle Beams"
         },
         "speed": 21,
-        "text": ""
+        "text": "<b>Android (Cost: 2 Points)</b><br> Very utilitarian, focuses on function.<br> Uses Kinetic Shields and Particle Beams (are Free).<br> Typically employs swarms of unmanned fighters.<br> Typical FTL speed is 18-21 LY per day."
       },
       "asari": {
         "type": "Asari",
@@ -518,7 +518,7 @@
           "1": "Mass Accelerators"
         },
         "speed": 22,
-        "text": ""
+        "text": "<b>Asari (Cost: 2 Points)</b><br> Sleek, rounded, and lots of glowing lights.<br> Uses Energy Shields and Mass Accelerators (are Free).<br> Typical FTL speed is 18-22 LY per day."
       },
       "gray": {
         "type": "Gray",
@@ -528,7 +528,7 @@
           "1": "Particle Beams"
         },
         "speed": 24,
-        "text": ""
+        "text": "<b>Gray (Cost: 4 Points)</b><br> Disc shaped and intricate.<br> Uses Energy Shields and Particle Beams (are Free).<br> Has Gravity tech that allows for dreadnoughts to land on planets, and for tractor beams.<br> Typical FTL speed is 20-24 LY per day."
       },
       "aquoid": {
         "type": "Aquoid",
@@ -538,7 +538,7 @@
           "1": "Mass Accelerators"
         },
         "speed": 20,
-        "text": ""
+        "text": "<b>Aquoid (Cost: 2 Points)</b><br> Very organic and sea-animal shaped.<br> Built for deep oceans and deep space.<br> Uses Kinetic Shields and Mass Accelerators (are Free).<br> Typical FTL speed is 17-20 LY per Day."
       },
       "qunari": {
         "type": "Qunari",
@@ -548,7 +548,7 @@
           "1": "Casaba Howitzers"
         },
         "speed": 22,
-        "text": ""
+        "text": "<b>Qunari (Cost: 2 Points)</b><br> Long, angular, and sturdy.<br> Uses Energy Shields and Casaba Howitzers (are Free).<br> Typical FTL speed is 17-22 LY per day."
       }
     }
   }
