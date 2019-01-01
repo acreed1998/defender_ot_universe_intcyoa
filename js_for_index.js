@@ -82,6 +82,18 @@ $(document).ready(function () {
     for (let i = 0; i < shipKeys.length; i++) {
       let shipSectionTableCell = $("<td>").html(data.ship.choices[shipKeys[i]].text).addClass("noChoice").appendTo(shipSectionTableRow);
     }
+
+    // Ship Style Section
+    let sStyleSection = $("<section>").appendTo("body");
+    let sStyleSectionOD = $("<div>").addClass("dialogue").html(data.ship_style.opening).appendTo(sStyleSection);
+    let sStyleSectionTable = $("<table>").addClass("shipStyleTable").appendTo(sStyleSection);
+    let sStyleKeys = Object.keys(data.ship_style.choices);
+    for (let i = 0; i < sStyleKeys.length; i++) {
+      if (i % 3 === 0 || i === 0) {
+        var sStyleSectionTableRow = $("<tr>").appendTo(sStyleSectionTable);
+      }
+      let sStyleSectionTableCell = $("<td>").html(data.ship_style.choices[sStyleKeys[i]].text).addClass("noChoice").appendTo(sStyleSectionTableRow);
+    }
     console.log(data.armor.opening);
   });
 
