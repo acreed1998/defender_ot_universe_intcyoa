@@ -60,6 +60,18 @@ $(document).ready(function () {
       }
       let aTraitsSectionTableCell = $("<td>").html(data.armor_traits.choices[aTraitsKeys[i]].text).addClass('noChoice').appendTo(aTraitsSectionTableRow);
     }
+
+    // Weapons Section
+    let weaponSection = $("<section>").appendTo('body');
+    let weaponSectionOD = $("<div>").addClass('dialogue').html(data.weapons.opening).appendTo(weaponSection);
+    let weaponSectionTable = $("<table>").addClass("weaponsTable").appendTo(weaponSection);
+    let weaponsKeys = Object.keys(data.weapons.choices);
+    for (let i = 0; i < weaponsKeys.length; i++) {
+      if (i % 4 === 0 || i === 0) {
+        var weaponSectionTableRow = $("<tr>").appendTo(weaponSectionTable);
+      }
+      let weaponSectionTableCell = $("<td>").html(data.weapons.choices[weaponsKeys[i]].text).addClass("noChoices").appendTo(weaponSectionTableRow);
+    }
     console.log(data.armor.opening);
   });
 

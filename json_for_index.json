@@ -352,7 +352,7 @@
       "phaser": {
         "name": "Phaser",
         "points": 1,
-        "text": "<b>Phaser (Cost: 1 Point)</b> A rechargeable energy weapon that interacts with its targets nervous system, and can be set to stun, knock out or kill."
+        "text": "<b>Phaser (Cost: 1 Point)</b><br> A rechargeable energy weapon that interacts with its targets nervous system, and can be set to stun, knock out or kill."
       },
       "pulse_rifle": {
         "name": "Pulse Rifle",
