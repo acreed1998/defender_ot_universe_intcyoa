@@ -456,7 +456,7 @@
         "traits": 6,
         "main_weapons": 1,
         "points": 4,
-        "text": ""
+        "text": "<b>Frigate (Cost: 4 Points)</b><br> Fast and Light, meant more for stealth, scouting, extraction, search-and-rescue, etc.<br> Between 100 and 200 meters long.<br> Typically has 3-5 decks.<br> Can fit 6 traits and I main weapon."
       },
       "cruiser": {
         "type": "Cruiser",
@@ -465,7 +465,7 @@
         "traits": 8,
         "main_weapons": 1,
         "points": 6,
-        "text": ""
+        "text": "<b>Cruiser (Cost: 6 Points)</b><br> Larger than a frigate, very popular as it balances armor with speed.<br> Between 300 and 500 meters long.<br> Typically has 5-8 decks.<br> Can fit 8 traits and I main weapon."
       },
       "battleship": {
         "type": "Battleship",
@@ -474,7 +474,7 @@
         "traits": 10,
         "main_weapons": 1,
         "points": 8,
-        "text": ""
+        "text": "<b>Battleship (Cost: 8 Points)</b><br> 3/4ths the size of a dreadnought very large and very heavily armed, but still pretty slow and doesn’t have as much armor as the dreadnought.<br> Between 700 and 900 meters long.<br> Typically has 8-12 decks.<br> Can fit 10 traits and I main weapon."
       },
       "dreadnought": {
         "type": "Dreadnought",
@@ -483,7 +483,7 @@
         "traits": 12,
         "main_weapons": 2,
         "points": 10,
-        "text": ""
+        "text": "<b>Dreadnought (Cost: 10 Points)</b><br> Biggest ship, other than Gray motherships. Slower than battleships, can’t land on most planets.<br> Immense armor and weaponry.<br> 900+ meters, typical limit is 1800 meters.<br> Can fit 12 traits and 2 main weapons."
       }
     }
   }
