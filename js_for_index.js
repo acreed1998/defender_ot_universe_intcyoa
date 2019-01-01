@@ -70,7 +70,17 @@ $(document).ready(function () {
       if (i % 4 === 0 || i === 0) {
         var weaponSectionTableRow = $("<tr>").appendTo(weaponSectionTable);
       }
-      let weaponSectionTableCell = $("<td>").html(data.weapons.choices[weaponsKeys[i]].text).addClass("noChoices").appendTo(weaponSectionTableRow);
+      let weaponSectionTableCell = $("<td>").html(data.weapons.choices[weaponsKeys[i]].text).addClass("noChoice").appendTo(weaponSectionTableRow);
+    }
+
+    // Ship Section
+    let shipSection = $("<section>").appendTo('body');
+    let shipSectionOD = $("<div>").addClass("dialogue").html(data.ship.opening).appendTo(shipSection);
+    let shipSectionTable = $("<table>").addClass("shipTable").appendTo(shipSection);
+    let shipSectionTableRow = $("<tr>").appendTo(shipSectionTable);
+    let shipKeys = Object.keys(data.ship.choices);
+    for (let i = 0; i < shipKeys.length; i++) {
+      let shipSectionTableCell = $("<td>").html(data.ship.choices[shipKeys[i]].text).addClass("noChoice").appendTo(shipSectionTableRow);
     }
     console.log(data.armor.opening);
   });
