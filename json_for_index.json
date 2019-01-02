@@ -773,5 +773,52 @@
         "text": "<b>Deus Ex Machina (Restriction: Ship)<br> (Cost: 5 Points)</b><br> Your ship is inhabited and controlled by an immensely powerful quantum AI named Eve. She is truly unique. She can make tens of decillions of calculations in seconds, and her thoughts move faster than any organic, and most other Als as well. She is curious, inquisitive, loyal, quick-witted, and has a soothing voice.<br> She can project a hardlight form."
       }
     }
+  },
+  "non_playable_characters" : {
+    "opening" : "<b>Non-Playable Races</b>",
+    "choices" : {
+      "altean": {
+        "race": "Altean",
+        "lifespan": 810,
+        "lift_str": 1100,
+        "speed": 30,
+        "text": "<b>Altean</b><br> Alteans are native to Altea, a lush garden world.<br> Alteans are an advanced yet reclusive race of elf-like humanoids with psionic abilities. 70% of Alteans are Psionics, but only I/8th ofthat percentage possess telekinesis. For the others, their psionics manifest as the manipulation and even generation of: Fire/Heat, Ice/Cold, Water, Earth,Air, Life, or Space, which is the rarest. Alteans have a democratic monarchy, where the king presides over an elected parliament. Few outsiders are allowed on Altea.<br> Max Lifespan of 810 years.<br> Max Lifting Strength of 1100 lbs.<br> Max Speed of 30 mph.<br> Natural Environment is Temperate Grasslands."
+      },
+      "quarian": {
+        "race": "Quarian",
+        "lifespan": 130,
+        "lift_str": 1000,
+        "speed": 27,
+        "text": "<b>Quarian</b><br> Quarians are native to Rannoch, an arid and dry, yet habitable world. Quarians are very similar to humans, but due to their weak immune systems, they must wear a special biosuit 95% of the time, only taking it off for short intervals while in sterilized environments. Quarians are well known for their engineering capabilities and resourcefulness.They tend to be distrustful of A.l.s, especially those not in Android bodies.<br> Quarians are also nomadic, the majority of their species living in an enormous fleet that flies through space.<br> Max Lifespan of 130 years.<br> Max Lifting Strength of 1000 lbs.<br> Max Speed of 27 mph.<br> Natural Environment is Dry and Arid."
+      },
+      "celestial": {
+        "race": "Celestial",
+        "lifespan": "Unknown",
+        "lift_str": "Unknown",
+        "speed": "Unknown",
+        "text": "<b>Celestial</b><br> Little is known about these mysterious beings, as the large, dense nebula in which they are known to live in is very dangerous, and difficult to navigate.They are known to be made out of the same gas that makes up their nebula, and they seem to be held together by psionic force alone.They are incredibly powerful psionics, but they maintain a belief system very much like human Buddhism.The majority of Celestials are pacifist, and they also rarely leave their nebula, spending most of their time meditating.<br> Max Lifespan of ??? years.<br> Max Lifting Strength of ??? lbs.<br> Max Speed of ??? mph.<br> Natural Environment is Space Gas."
+      },
+      "kitsune": {
+        "race": "Kitsune",
+        "lifespan": 400,
+        "lift_str": 1200,
+        "speed": 38,
+        "text": "<b>Kitsune</b><br> The Kitsune are a race of bipedal humanoids who appear very similar to earth foxes.<br> What’s unique about them is their ability to shapeshift.They can become indistinguishable from any human, asari, gray. etc.They cannot mimic specific people, just a specific humanoid species.They are incredibly secretive, to the point where nobody is exactly sure where their homeworldTaya is.What is known is that they seem to be working on enhancing the agents that they send out into the galaxy, creating something akin to Super Soldiers.<br> Max Lifespan of 400 years.<br> Max Lifting Strength of 1200 lbs.<br> Max Speed of 38 mph.<br> Natural Environment is Temperate Forests."
+      },
+      "turian": {
+        "race": "Turian",
+        "lifespan": 130,
+        "lift_str": 1400,
+        "speed": 30,
+        "text": "<b>Turian</b><br> Turians are a race of stoic, militaristic avian humanoids.They value military strength, honor, and discipline. All turians have a thin natural carapace that is a mixture of organic metal and bone, that helps shield them from the radiation of their sun, due to their planets weak magnetic fields not blocking all of it They have sharp teeth, and vicious talons on their hands and feet implying that this species evolved as carnivorous predators.Turians have a very large military force, due to a race-wide law that requires all citizens to spend at least 10 years in the military.<br> Max Lifespan of 130 years.<br> Max Lifting Strength of 1400 lbs.<br> Max Speed of 30 mph.<br> Natural Environment is Varied, usually Temperate."
+      },
+      "typhon": {
+        "race": "Typhon",
+        "lifespan": "Unknown",
+        "lift_str": "Unknown",
+        "speed": "Unknown",
+        "text": "<b>Typhon</b><br> Very little is known about these monstrous shapeshifters, but we do know that they have stripped once-prosperous worlds barren, and left them empty and dead.They are very powerful, as they can shapeshift, survive the vacuum of space, apparently don’t age, and they possess psionic abilities.They also have no empathy; they are physically incapable of it. Tests have shown thatTyphon-Human hybrids could experience empathy, and thus be reasoned with, but nothing has come of that yet. If you see one of these, do not engage.<br> Leave the area/ship/planet immediately.<br> Max Lifespan of ??? Years.<br> Max Lifting Strength of ??? lbs.<br> Max Speed of ??? mph."
+      }
+    }
   }
 }
