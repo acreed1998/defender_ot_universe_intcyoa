@@ -112,6 +112,9 @@ $(document).ready(function () {
       }
       let sStyleSectionTableCell = $("<td>").html(data.ship_traits.choices[sTraitKeys[i]].text).addClass("noChoice").appendTo(sTraitSectionTableRow);
     }
+
+    // Non-Playable Races Section
+    
     console.log(data.armor.opening);
   });
 
