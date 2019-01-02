@@ -551,5 +551,221 @@
         "text": "<b>Qunari (Cost: 2 Points)</b><br> Long, angular, and sturdy.<br> Uses Energy Shields and Casaba Howitzers (are Free).<br> Typical FTL speed is 17-22 LY per day."
       }
     }
+  },
+  "ship_traits" : {
+    "opening" : "<b>Ship Traits</b><br>Only once you spend points on an option, it becomes a Trait.",
+    "choices" : {
+      "medical_bay": {
+        "trait": "Medical Bay",
+        "points": 2,
+        "text": ""
+      },
+      "mess_hall": {
+        "trait": "Mess Hall",
+        "points": 1,
+        "text": ""
+      },
+      "crew_quarters": {
+        "trait": "Crew Quarters",
+        "points": 1,
+        "text": ""
+      },
+      "recreational_rooms": {
+        "trait": "Recreational Rooms",
+        "points": 2,
+        "text": ""
+      },
+      "shields": {
+        "trait": "shields",
+        "type" : {
+          "1" : "Energy",
+          "2" : "Kinetic"
+        },
+        "points": 1,
+        "upgrade" : 2,
+        "text": ""
+      },
+      "hull": {
+        "trait": "Hull",
+        "points": 2,
+        "text": ""
+      },
+      "defenses": {
+        "trait": "Defenses",
+        "type" : {
+          "1" : "Rail",
+          "2" : "Mass",
+          "3" : "Energy",
+          "4" : "Laser"
+        },
+        "points": 2,
+        "text": ""
+      },
+      "security": {
+        "trait": "Security",
+        "tpd" : 2,
+        "points": 1,
+        "upgrade": 2,
+        "text": ""
+      },
+      "crew": {
+        "trait": "Crew",
+        "points": 1,
+        "text": ""
+      },
+      "engines": {
+        "trait": "Engines",
+        "points": 2,
+        "text": ""
+      },
+      "hangar_bay": {
+        "trait": "Hangar Bay",
+        "points": 1,
+        "upgrade" : 1,
+        "text": ""
+      },
+      "training": {
+        "trait": "Training",
+        "points": 1,
+        "text": ""
+      },
+      "particle_beam_cannon": {
+        "trait": "Particle Beam Cannon",
+        "points": 1,
+        "weapon" : true,
+        "text": ""
+      },
+      "rail_gun": {
+        "trait": "Rail Gun",
+        "points": 1,
+        "weapon" : true,
+        "text": ""
+      },
+      "mass_accelerator_cannon": {
+        "trait": "Mass Accelerator Cannon",
+        "points": 1,
+        "weapon":true,
+        "text": ""
+      },
+      "casaba_howitzer": {
+        "trait": "Casaba Howitzer",
+        "points": 1,
+        "weapon":true,
+        "text": ""
+      },
+      "armory": {
+        "trait": "Armory",
+        "points": 1,
+        "upgrade":1,
+        "text": ""
+      },
+      "stealth": {
+        "trait": "Stealth",
+        "points": 1,
+        "upgrade":2,
+        "text": ""
+      },
+      "life_support": {
+        "trait": "Life Support",
+        "points": 1,
+        "text": ""
+      },
+      "observation_decks": {
+        "trait": "Observation Decks",
+        "points": 1,
+        "upgrade": 1,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      },
+      "medical_bay": {
+        "trait": "",
+        "points": 2,
+        "text": ""
+      }
+    }
   }
 }
