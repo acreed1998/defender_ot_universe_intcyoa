@@ -11,3 +11,13 @@ body {
   text-align: center;
   color : #0a411c;
 }
+
+.npcTable {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.npcTable td {
+  border-style: outset;
+  border-width: ;
+}
