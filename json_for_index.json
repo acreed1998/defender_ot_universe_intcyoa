@@ -676,94 +676,100 @@
         "upgrade": 1,
         "text": ""
       },
-      "medical_bay": {
-        "trait": "",
+      "dropships": {
+        "req" : "Hangar Bay",
+        "trait": "Dropships",
+        "points": 1,
+        "text": ""
+      },
+      "fighter": {
+        "req" : "Hangar Bay",
+        "trait": "Fighter",
+        "points": 1,
+        "text": ""
+      },
+      "apcs": {
+        "trait": "APCs",
+        "req" : "Hangar Bay",
+        "points": 1,
+        "text": ""
+      },
+      "hover_tanks": {
+        "trait": "Hover Tanks",
+        "req" : "Hangar Bay",
         "points": 2,
         "text": ""
       },
-      "medical_bay": {
-        "trait": "",
+      "ai": {
+        "trait": "AI",
+        "points": 1,
+        "text": ""
+      },
+      "cyberwarfare_suite": {
+        "trait": "cyberwarfare_suite",
+        "points": 1,
+        "text": ""
+      },
+      "drones": {
+        "trait": "Drones",
+        "points": 1,
+        "text": ""
+      },
+      "command_bridge": {
+        "trait": "command_bridge",
+        "points": 0,
+        "text": ""
+      },
+      "built_to_last": {
+        "trait": "Built to Last",
+        "points": 1,
+        "text": ""
+      },
+      "skeleton_crew": {
+        "trait": "Skeleton Crew",
+        "extr_crew" : "1",
+        "points": 1,
+        "text": ""
+      },
+      "luxury": {
+        "trait": "Luxury",
+        "points": 1,
+        "text": ""
+      },
+      "grav_tech": {
+        "trait": "Grav-Tech",
         "points": 2,
         "text": ""
       },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
+      "atmospheres": {
+        "trait": "Atmospheres",
+        "points": 1,
         "text": ""
       },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
+      "efficiency": {
+        "trait": "Efficiency",
+        "points": 1,
         "text": ""
       },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
+      "hypernought": {
+        "trait": "Hypernought",
+        "points": 6,
         "text": ""
       },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
+      "superluminal": {
+        "trait": "Superluminal",
+        "points": 6,
         "text": ""
       },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
+      "superweapon": {
+        "trait": "Superweapon",
+        "extr_weapons" : 2,
+        "points": 6,
         "text": ""
       },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
-        "text": ""
-      },
-      "medical_bay": {
-        "trait": "",
-        "points": 2,
+      "deus_ex_machina": {
+        "trait": "Deus Ex Machina",
+        "points": 5,
         "text": ""
       }
     }
