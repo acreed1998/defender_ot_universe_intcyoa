@@ -113,8 +113,17 @@ $(document).ready(function () {
       let sStyleSectionTableCell = $("<td>").html(data.ship_traits.choices[sTraitKeys[i]].text).addClass("noChoice").appendTo(sTraitSectionTableRow);
     }
 
-    // Non-Playable Races Section
-    
+    // Non-Playable Races/Characters Section
+    let npcSection = $("<section>").appendTo("body");
+    let npcSectionOD = $("<div>").addClass("dialogue").html(data.non_playable_characters.opening).appendTo(npcSection);
+    let npcSectionTable = $("<table>").addClass("npcTable").appendTo(npcSection);
+    let npcKeys = Object.keys(data.non_playable_characters.choices);
+    for (let i = 0; i < npcKeys.length; i++) {
+      if (i % 3 === 0 || i === 0) {
+        var npcSectionTableRow = $("<tr>").appendTo(npcSectionTable);
+      }
+      let npcSectionTableCell = $("<td>").html(data.non_playable_characters.choices[npcKeys[i]].text).addClass("noChoice").appendTo(npcSectionTableRow);
+    }
     console.log(data.armor.opening);
   });
 
