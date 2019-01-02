@@ -558,37 +558,37 @@
       "medical_bay": {
         "trait": "Medical Bay",
         "points": 2,
-        "text": ""
+        "text": "<b>Medical Bay</b><br> Has MRIs, medical scanners, automated surgery machines, and plenty of beds, as well as a stockpile of medication.<br> <b>Upgrade (Cost: 2 Points)</b><br> Your medical center is 3x as big, and has organ cloners, stasis pods, and even accelerated healing pods."
       },
       "mess_hall": {
         "trait": "Mess Hall",
         "points": 1,
-        "text": ""
+        "text": "<b>Mess Hall</b><br> Has enough metal tables to seat everyone, and has a decently sized kitchen and storeroom.<br> <b>Upgrade (Cost: I Point)</b><br> Very fancy; tables are replaced with booths, there is now a bar. a large kitchen, and a 5-star chef."
       },
       "crew_quarters": {
         "trait": "Crew Quarters",
         "points": 1,
-        "text": ""
+        "text": "<b>Crew Quarters<br> Can house 4 Teammates</b><br> Your ship has a series of nice, single room cabins for your teammates, and two or three large communal rooms.<br> <b>Upgrade (Cost: I Point)<br> Can house 6 more Teammates</b><br> Everyone has their own small but luxurious room."
       },
       "recreational_rooms": {
         "trait": "Recreational Rooms",
         "points": 2,
-        "text": ""
+        "text": "<b>Recreational Rooms</b><br> You have a small library on board, as well as a rec room with movies, game tables, and video games.<br> <b>Upgrade (Cost: 2 Points)</b><br> Your library is huge, housing thousands of paperbacks and tens of thousands of digital books.You also have a small movie theater on board."
       },
       "shields": {
         "trait": "shields",
         "type" : {
-          "1" : "Energy",
-          "2" : "Kinetic"
+          "0" : "Energy",
+          "1" : "Kinetic"
         },
         "points": 1,
         "upgrade" : 2,
-        "text": ""
+        "text": "<b>Shields (Cost: I Point)</b><br> You gain one shield, choose between <b>Energy</b> or <b>Kinetic</b>.<br> Energy uses almost 2x as much power.<br> <b>Upgrade (Cost: 2 Points)</b><br> Your shields are now layered.<br> Choose a second shield, you can have your second be the same shield as the first, if you want."
       },
       "hull": {
         "trait": "Hull",
         "points": 2,
-        "text": ""
+        "text": "<b>Hull</b><br> You have a tough, multi-layered hull, which protects against space dust, impacts, radiation, and heat. This includes a Whipple shield.<br> <b>Upgrade (Cost: 2 Points)</b><br> Your main exterior hull is much more durable; made out of layered and pressed carbon nanotubes."
       },
       "defenses": {
         "trait": "Defenses",
@@ -599,59 +599,59 @@
           "4" : "Laser"
         },
         "points": 2,
-        "text": ""
+        "text": "<b>Defenses</b><br> You gain two external point-defense turrets, and gain another two turrets for each ship size; Frigates get 2 total, etc.<br> Choose if Rail, Mass, Energy, or Laser.<br> <b>Upgrade (Cost: 2 Points)</b><br> You gain an additional four turrets total, plus a swarm of 10 combat drones, and a swarm of 8 repair drones."
       },
       "security": {
         "trait": "Security",
         "tpd" : 2,
         "points": 1,
         "upgrade": 2,
-        "text": ""
+        "text": "<b>Security (Cost: I Point)</b><br> You have two hidden turrets on each deck, and a team of 10 security officers.<br> Choose what races they are, you can choose Playable Races + Turian.<br> <b>Upgrade (Cost: 2 Points)</b><br> Your security team is now heavily armed and armored, and you have at least 4 officers on each deck at all times."
       },
       "crew": {
         "trait": "Crew",
         "points": 1,
-        "text": ""
+        "text": "<b>Crew</b><br> You have a decently-sized crew of engineers, navigators, technicians, and maintenance. They are all your race.<br> <b>Upgrade (Cost: I Point)</b><br> All of your crew mates are ex-military or otherwise skilled.They are also diverse, choose the species distribution<br> (Can only be Playable Races)"
       },
       "engines": {
         "trait": "Engines",
         "points": 2,
-        "text": ""
+        "text": "<b>Engines</b><br> Your ship's thrusters push you through real space at thousands of miles an hour.<br> The exterior of your ship is covered in RCS thrusters for micro-adjustments.<br> <b>Upgrade (Cost: 2 Points)</b><br> Your ship is now noticeably faster in real space, thanks to your upgraded thrusters."
       },
       "hangar_bay": {
         "trait": "Hangar Bay",
         "points": 1,
         "upgrade" : 1,
-        "text": ""
+        "text": "<b>Hangar Bay (Cost: i Point)</b><br> You gain a single hanger bay.This can hold shuttles, fighters, and vehicles.Your ship’s hangar bay can house any ship that is smaller than your ship’s size.<br> <b>Upgrade (Cost: I Point)</b><br> You have multiple hangar bays, and you can hold twice as many shuttles and fighters."
       },
       "training": {
         "trait": "Training",
         "points": 1,
-        "text": ""
+        "text": "<b>Training</b><br> You have a decent-sized shooting gallery on board for your crew mates, and you have a small gym for crew.<br> <b>Upgrade (Cost: I Point)</b><br> You now have a holographic combat simulator that your crew mates can train in, and your gym is 2x larger."
       },
       "particle_beam_cannon": {
         "trait": "Particle Beam Cannon",
         "points": 1,
         "weapon" : true,
-        "text": ""
+        "text": "<b>Particle Beam Cannon<br> (Cost: I Point)</b><br> Main Weapon<br> Fires a high-intensity beam of atomic particles at near-light speeds.This weapon causes superheating in its targets and impacts with over 150 terajoules of kinetic energy.<br> Can fire once per minute."
       },
       "rail_gun": {
         "trait": "Rail Gun",
         "points": 1,
         "weapon" : true,
-        "text": ""
+        "text": "<b>Rail Gun (Cost: I Point)</b><br> Main Weapon<br> Uses a long series of magnets to accelerate a large, human-sized slug of metal to several hundred times the speed of sound. Impacts with about 70 terajoules of energy, and penetrates even the toughest armors. Can only fire once every 30 seconds."
       },
       "mass_accelerator_cannon": {
         "trait": "Mass Accelerator Cannon",
         "points": 1,
         "weapon":true,
-        "text": ""
+        "text": "<b>Mass Accelerator Cannon<br> (Cost: I Point)</b><br> Main Weapon<br> Uses Mass Alteration Fields to accelerate a soccer ball-sized slug of molten metal to a tiny fraction of the speed of light. Can fire every 12 seconds.<br> Has an impact yield in the low kilotons."
       },
       "casaba_howitzer": {
         "trait": "Casaba Howitzer",
         "points": 1,
         "weapon":true,
-        "text": ""
+        "text": "<b>Casaba Howitzer (Cost: I Point)</b><br> The Nuclear Spear, Main Weapon.<br> This directed weapon fires a beam of pure nuclear fire and radiation. It tears through and cooks unshielded ships, and is decently effective against ground targets. Cheap, easy to use, and has an explosive yield in the low kilotons.<br> Can fire every 15 seconds."
       },
       "armory": {
         "trait": "Armory",
