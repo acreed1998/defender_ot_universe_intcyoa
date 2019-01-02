@@ -102,7 +102,7 @@ $(document).ready(function () {
     let sTraitKeys = Object.keys(data.ship_traits.choices);
     for (let i = 0; i < sTraitKeys.length; i++) {
       if (i === 28 || i === 31) {
-        var sTraitSectionTableRow = $("<tr>").appendTo(sTraitSectionTable);
+        var sTraitSectionTableRow = $("<tr>").addClass("Gamma").appendTo(sTraitSectionTable);
       } else if (i === 34) {
         var sTraitSectionTableRow = $("<tr>").appendTo(sTraitSectionTable);
       } else if (i % 4 === 0 || i < sTraitKeys.length - 10 && i % 4 === 0) {

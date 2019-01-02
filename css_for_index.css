@@ -12,11 +12,14 @@ body {
   color : #0a411c;
 }
 
-.npcTable {
+table {
   width: 100%;
   table-layout: fixed;
+  text-align: center;
 }
 
-.npcTable td {
+table td {
   border-style: outset;
 }
+
+
