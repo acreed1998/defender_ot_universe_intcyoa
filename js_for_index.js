@@ -98,19 +98,19 @@ $(document).ready(function () {
     // Ship Traits Section
     let sTraitSection = $("<section>").appendTo("body");
     let sTraitSectionOD = $("<div>").addClass("dialogue").html(data.ship_traits.opening).appendTo(sTraitSection);
-    let sTraitSectionTable = $("<table>").addClass("shipTraitTable").appendTo(sTraitSection);
+    let sTraitSectionTable = $("<div>").addClass("shipTraitTable").appendTo(sTraitSection);
     let sTraitKeys = Object.keys(data.ship_traits.choices);
     for (let i = 0; i < sTraitKeys.length; i++) {
       if (i === 28 || i === 31) {
-        var sTraitSectionTableRow = $("<tr>").addClass("Gamma").appendTo(sTraitSectionTable);
+        var sTraitSectionTableRow = $("<div>").addClass("Gamma").appendTo(sTraitSectionTable);
       } else if (i === 34) {
-        var sTraitSectionTableRow = $("<tr>").appendTo(sTraitSectionTable);
+        var sTraitSectionTableRow = $("<div>").appendTo(sTraitSectionTable);
       } else if (i % 4 === 0 || i < sTraitKeys.length - 10 && i % 4 === 0) {
         if (i !== 32 && i !== 33 && i !== 36) {
-          var sTraitSectionTableRow = $("<tr>").appendTo(sTraitSectionTable);
+          var sTraitSectionTableRow = $("<div>").appendTo(sTraitSectionTable);
         }
       }
-      let sStyleSectionTableCell = $("<td>").html(data.ship_traits.choices[sTraitKeys[i]].text).addClass("noChoice").appendTo(sTraitSectionTableRow);
+      let sStyleSectionTableCell = $("<div>").html(data.ship_traits.choices[sTraitKeys[i]].text).addClass("noChoice").appendTo(sTraitSectionTableRow);
     }
 
     // Non-Playable Races/Characters Section

@@ -820,5 +820,290 @@
         "text": "<b>Typhon</b><br> Very little is known about these monstrous shapeshifters, but we do know that they have stripped once-prosperous worlds barren, and left them empty and dead.They are very powerful, as they can shapeshift, survive the vacuum of space, apparently don’t age, and they possess psionic abilities.They also have no empathy; they are physically incapable of it. Tests have shown thatTyphon-Human hybrids could experience empathy, and thus be reasoned with, but nothing has come of that yet. If you see one of these, do not engage.<br> Leave the area/ship/planet immediately.<br> Max Lifespan of ??? Years.<br> Max Lifting Strength of ??? lbs.<br> Max Speed of ??? mph."
       }
     }
+  },
+  "team" : {
+    "opening" : "<b>Team<b>",
+    "choices" : {
+      "dr_morgan_yu": {
+        "member_name": "Dr. Morgan Yu",
+        "armor": {
+          "type": "space_suit",
+          "traits": ["jump_jets", "dr_armor", "survivalist", "smart armor"]
+        },
+        "abilities": ["intelligence", "tech_skills", "enhanced_senses", "endurance", "immune", "medical_expert"],
+        "points": 2,
+        "text": ""
+      },
+      "rick_jordan": {
+        "member_name": "Rick 'Robocop' Jordan",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      },
+      "dr_morgan_yu": {
+        "member_name": "",
+        "armor": {
+          "type": "",
+          "traits": ""
+        },
+        "abilities": {},
+        "points": 0,
+        "text": ""
+      }
+    }
   }
 }
