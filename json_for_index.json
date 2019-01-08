@@ -824,9 +824,9 @@
   "team" : {
     "opening" : "<b>Team<b>",
     "choices" : {
-      "dr_morgan_yu": {
+      "morgan_yu": {
         "member_name": "Dr. Morgan Yu",
-        "race" : "",
+        "race" : "human",
         "armor": {
           "type": "space_suit",
           "traits": ["jump_jets", "dr_armor", "survivalist", "smart armor"]
@@ -837,68 +837,76 @@
       },
       "rick_jordan": {
         "member_name": "Rick 'Robocop' Jordan",
-        "race": "",
+        "race": "andoroid",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "body",
+          "traits": ["kinetic_shield", "hardlight_shield", "nanobots", "survivalist"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["tech_skills", "combat_training", "special_ops", "precision", "hidden_weapons", {"1" : "cybernetics", "2" : 4}],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "amelia_oxton": {
+        "member_name": "Flight Lt. Amelia Oxton",
+        "race": "human",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["jump_jets", "kinetic_shield", "kinetic_gauntlets", "dr_armor"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["piloting", "enhanced_senses", "endurance", "precision", "combat_training"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "josef_kateb": {
+        "member_name": "Dr. Josef Kateb",
+        "race": "android",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "body",
+          "traits": ["energy_shield", "tentacle", "survivalist", "elemental_gauntlens"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["medical_expert", "tech_skills", "combat_training", "precision", "intelligence", "beloved", {
+            "1": "cybernetics",
+            "2": 4
+          }],
+        "points": 1,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "kim_song": {
+        "member_name": "Kim 'Kitty' Song",
+        "race": "human",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "power_armor",
+          "traits": ["jump_jets", "energy_shield", "nanobots", "firepower", "enhanced_servos", "enhanced_shell", "energy_systems", "dr_armor"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["combat_training", "endurance", "piloting", "beautiful", "tech_skills", {
+            "1": "cybernetics",
+            "2": 4
+          }],
+        "points": 3,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "faezi_perev": {
+        "member_name": "Faezi Perev",
+        "race": "asari",
+        "weapon" : ["panther", "uber_blade"], 
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["energy_shield", "jump_jets", "stealth"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["beautiful", "diplomatic", "combat_training", "psionic_enhacement", "special_ops", "psionics"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "kayvorah endeavor": {
+        "member_name": "Kay'Vorah vas Endeavor",
+        "race": "Quarian",
+        "weapons" : ["falcon_sniper_rifle", "tiger_sharks"], 
         "armor": {
           "type": "",
           "traits": ""
         },
         "abilities": {},
-        "points": 0,
+        "points": 3,
         "text": ""
       },
       "dr_morgan_yu": {
