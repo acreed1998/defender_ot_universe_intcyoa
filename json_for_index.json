@@ -829,7 +829,7 @@
         "race" : "human",
         "armor": {
           "type": "space_suit",
-          "traits": ["jump_jets", "dr_armor", "survivalist", "smart armor"]
+          "traits": ["jump_jets", "dr_armor", "survivalist", "smart_armor"]
         },
         "abilities": ["intelligence", "tech_skills", "enhanced_senses", "endurance", "immune", "medical_expert"],
         "points": 2,
@@ -862,7 +862,7 @@
         "race": "android",
         "armor": {
           "type": "body",
-          "traits": ["energy_shield", "tentacle", "survivalist", "elemental_gauntlens"]
+          "traits": ["energy_shield", "tentacle", "survivalist", "elemental_gauntlents"]
         },
         "abilities": ["medical_expert", "tech_skills", "combat_training", "precision", "intelligence", "beloved", {
             "1": "cybernetics",
@@ -899,212 +899,231 @@
       },
       "kayvorah endeavor": {
         "member_name": "Kay'Vorah vas Endeavor",
-        "race": "Quarian",
-        "weapons" : ["falcon_sniper_rifle", "tiger_sharks"], 
+        "race": "quarian",
+        "weapon" : ["falcon_sniper_rifle", "tiger_sharks"], 
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["jump_jets", "stealth", "cyberwarfare_suite", "kinetic_shield"]
         },
-        "abilities": {},
+        "abilities": ["tech_skills", "combat_training", "special_ops", "precision", "beautiful", "peak_physical_fitness"],
         "points": 3,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "refaxamin_guyya": {
+        "member_name": "Refa'Xamin vas Gyya",
+        "race": "quarian",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "none",
+          "traits": []
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["intelligence", "tech_skills", {
+            "1": "cybernetics",
+            "2": 1
+          }, "precision", "hidden_weapons"],
+        "points": 1,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "yonera": {
+        "member_name": "Yonera",
+        "race": "qunari",
+        "weapon" : ["mono_molecular_blade", "mag"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["nanobots", "kinetic_shield", "survivalist", "jump_jets"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["combat_training", "endurance", "psionics", "psionic_enhacement", "rage", "peak_physical_fitness"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "bulwark": {
+        "member_name": "Bulwark",
+        "race": "qunari",
+        "weapon" : ["energy_blade", "minigun"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["enhanced_shell", "energy_shield", "dr_armor"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["combat_training", "enhanced_senses", "endurance", "peak_physical_fitness"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "doz_brutal": {
+        "member_name": "Doz the Brutal",
+        "race": "gray",
+        "weapon" : ["laser_rifle"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["energy_shield", "dr_armor", "enhanced_servos", "jump_jets"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["intelligence", "enhanced_senses", "combat_training", "rage", "diplomatic", "tech_skills"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "harnld": {
+        "member_name": "Harnld",
+        "race": "gray",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["dr_armor", "survivalist", "tentacle", "energy_shield"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["intelligence", "tech_skills", "immune", "precision", "medical_expert"],
+        "points": 1,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "esora_teanus": {
+        "member_name": "Esora T'eanus",
+        "race": "asari",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["jump_jets", "survivalist", "dr_armor", "kinetic_shield"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["beautiful", "intelligence", "combat_training", "psionics", "piloting"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "aquila": {
+        "member_name": "Aquila",
+        "race": "asari",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["kinetic_shield", "survivalist", "enhanced_servos", "smart_armor"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["beautiful", "combat_training", "psionics", "precision", "special_ops", "peak_physical_fitness"],
+        "points": 3,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "rio": {
+        "member_name": "Rio",
+        "race": "aquoid",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["survivalist", "energy_gauntlets", "jump_jets"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["enhanced_senses", "immune", "medical_expert", "intelligence", "combat_training"],
+        "points": 1,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "charlie": {
+        "member_name": "Charlie",
+        "race": "aquoid",
+        "weapon" : ["tiger_sharks", "hardlight_blade"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["dr_armor", "jump_jets", "kinetic_shield", "survivalist"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["immune", "enhanced_senses", "combat_training", "special_ops", "peak_physical_fitness"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "julea_victolus": {
+        "member_name": "Julea Victolus",
+        "race": "turian",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["jump_jets", "survivalist", "energy_shield", "stealth"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["psionics", "psionic_enhacement", "immune", "combat_training", "special_ops", "precision"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "hunter": {
+        "member_name": "The Hunter",
+        "race": "unknown",
+        "weapon" : ["gauss_rifle", "mono_molecular_blade"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["survivalist", "jump_jets", "energy_shield", "enhanced_shell"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["precision", "combat_training", "immune", "enhanced_senses", "special_ops", "psionics", "rage", "elementalism", "endurance", "peak_physical_fitness"],
+        "points": 3,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "kayla_ghost": {
+        "member_name": "Kayla the Ghost",
+        "race": "human",
+        "weapon" : ["anti_material_rifle", "hardlight_blade"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["stealth", "survivalist", "kinetic_shield"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["precision", "combat_training", "rage", "endurance", "enhanced_senses", "special_ops"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "iris_brauner": {
+        "member_name": "Iris Brauner",
+        "race": "human",
+        "weapon" : ["tiger_sharks"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "mech",
+          "traits": ["nanobots", "collapsible", "enhanced_servos", "enhanced_shell", "enhanced_size", "energy_systems", "firepower", "energy_gauntlets", "energy_shield", "jump_jets"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["piloting", "combat_training", "precision", "rage", "endurance", "tech_skills"],
+        "points": 3,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "sky_tulach": {
+        "member_name": "Sky Tulach",
+        "race": "human",
+        "weapon" : ["magnum", "kinetic_staff"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["energy_shield"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["beautiful", "beloved", "combat_training", "immune", "precision", "rage", "diplomatic", "special_ops"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "sten": {
+        "member_name": "Sten",
+        "race": "qunari",
+        "weapon" : ["kinetic_warhammer", "flamethrower"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["enhanced_servos", "kinetic_shield", "dr_armor", "kinetic_gauntlets"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["combat_training", "precision", "rage", "endurance", "immune", "peak_physical_fitness"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "sun": {
+        "member_name": "Sun",
+        "race": "human",
+        "weapon" : ["shotgun"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["kinetic_shield", "amplifier"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["psionics", "psionic_enhacement", "precision", "rage", {
+            "1": "cybernetics",
+            "2": 1
+          }, "combat_training"],
+        "points": 3,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "sumia_valmaer": {
+        "member_name": "Sumia Valmaer",
+        "race": "altean",
+        "weapon" : ["plasma_blade", "pulse_pistols"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["stealth", "survivalist", "cyberwarfare_suite", "kinetic_shield"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["intelligence", "tech_skills", "precision", "combat_training", "special_ops", "beautiful"],
+        "points": 2,
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "miki": {
+        "member_name": "Miki",
+        "race": "kitsune",
+        "weapon" : ["uber_blade", "panther", "puma"],
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["jump_jets", "energy_shield", "smart_armor", "survivalist"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["combat_training", "beautiful", "special_ops", "diplomatic", "peak_physical_fitness", "enhanced_senses", "precision", "super_soldier"],
+        "points": 6,
+        "restriction" : "team",
         "text": ""
       },
       "dr_morgan_yu": {
