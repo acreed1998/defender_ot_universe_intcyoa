@@ -1163,5 +1163,35 @@
         "text": "<b>Eve (Restriction: Ship)<br> (Cost: 5 Points)</b><br> The advanced quantum Artificial Intelligence that inhabits your ship has it’s own advanced android platform.The fact that it can inhabit both at the same time is unprecedented. All other Als in existence are relegated to a single platform, be that a ship or an android body. As long as the ship is within I AU of the body. Eve can operate at maximum efficiency in both her ship form and her android form. Any further and she experiences a drop in efficiency. Her android form is resistant to high temperatures, small arms fire, and blunt force trauma. She is equipped with a Kinetic Shield generator and an Energy Shield generator, and she has multiple clusters of alien nanobots that work constantly to keep her android form in top shape. In addition to that, she is a master of cyberwarfare, hacking through enemies defenses within minutes, if not seconds. She is incredibly agile and flexible, moving with the grace of a ballerina, or a master infiltrator. Her android body is also incredibly lifelike. Eve has Com bat Training. Intelligence.Tech Skills, Piloting, Enhanced Senses, Beautiful, Special Ops, Peak Physical Fitness, Cybernetics (x4), and Armored."
       }
     }
+  },
+  "boons" : {
+    "opening" : "<b>Boons</b><br>For each Boon, you must take the listed # of drawbacks",
+    "choices" : {
+      "the_chosen_one": {
+        "name": "The Chosen One",
+        "drawbacks": 2,
+        "text": ""
+      },
+      "hello_ladies": {
+        "name": "Hello Ladies...",
+        "drawbacks": 1,
+        "text": ""
+      },
+      "time": {
+        "name": "Time",
+        "drawbacks": 1,
+        "text": ""
+      },
+      "luck_of_the_draw": {
+        "name": "Luck of the Draw",
+        "drawbacks": 1,
+        "text": ""
+      },
+      "born_this_way": {
+        "name": "Born This Way",
+        "drawbacks": 2,
+        "text": ""
+      }
+    }
   }
 }
