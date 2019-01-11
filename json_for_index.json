@@ -833,7 +833,7 @@
         },
         "abilities": ["intelligence", "tech_skills", "enhanced_senses", "endurance", "immune", "medical_expert"],
         "points": 2,
-        "text": ""
+        "text": "<b>Dr. Morgan Yu (Cost: 2 Points)</b><br> The youngest in a long line of neurosurgeons, aerospace engineers, and biotech inventors, Morgan Yu certainly lives up to her heritage. She’s a certified genius, and has built everything from AJ.s to weaponry. She even designed the Heavy Cryo Cannon. She's a prodigy with tech, and a master hacker to boot. She can also hold her own in combat, thanks to all the time she spent testing her own weapons. Eventually, she got tired of inventing for money, and wanted to really do something with her life. She’s often cold and abrasive, but her actions speak louder; she is very caring and kind, and is willing to risk her life for anyone in need.<br> Her custom Space Suit has Jump Jets, Dr. Armor, Survivalist, and Smart Armor.<br> She has Intelligence.Tech Skills, Enhanced Senses, Endurance, Immune, and Medical Expert."
       },
       "rick_jordan": {
         "member_name": "Rick 'Robocop' Jordan",
@@ -844,7 +844,7 @@
         },
         "abilities": ["tech_skills", "combat_training", "special_ops", "precision", "hidden_weapons", {"1" : "cybernetics", "2" : 4}],
         "points": 2,
-        "text": ""
+        "text": "<b>Rick “Robocop” Jordan (Cost: 2 Points)</b><br> Male android, served on over 8 different police forces in the last 40 years. He's been a member of S.W.A.T for just as long, and has a nearly-flawless record. He's taken down slave rings, drug rings, and several crime bosses with minimal help. His skill and record have earned him the nickname “Robocop”, in reference to the ancient human story. He's gotten tired with bureaucracy, and left the police force after a murderer that he caught managed to walk free due to corruption. He’s grizzled, wizened, and pessimistic.<br> He’s also a little paranoid, thanks to all the hits put out on him over the years.<br> Integrated into his body is a Kinetic Shield, a Hardlight Shield, Nanobots, and Survivalist.<br> He has Tech Skills, Combat Training, Special Ops. Precision, Hidden Weapons, and Cybernetics (x4)."
       },
       "amelia_oxton": {
         "member_name": "Flight Lt. Amelia Oxton",
@@ -855,7 +855,7 @@
         },
         "abilities": ["piloting", "enhanced_senses", "endurance", "precision", "combat_training"],
         "points": 2,
-        "text": ""
+        "text": "<b>Flight Lt. Amelia Oxton (Cost: 2 Points)</b><br> Amelia's family have been flying in fighter jets since the Second World War; flying is in her blood. She's a decorated Ace and dog-fighter, and she graduated at the absolute top of her class in the united Human Air Force’s Flight School. She can fly anything from a helicopter to a dreadnought with ease. She's even managed to navigate a fighter through an asteroid field, several times! She prefers to fly smaller crafts like fighters and shuttles, but she can definitely fly anything bigger for you. She constantly carries her Hardlight Blade and her Pulse Pistols. She has a fiery personality, and she is very passionate in everything she does.<br> Her Space Suit has Jump Jets, a Kinetic Shield, Kinetic Gauntlets, and Dr.Armor.<br> She has Piloting, Enhanced Senses. Endurance, Precision, and Combat Training."
       },
       "josef_kateb": {
         "member_name": "Dr. Josef Kateb",
@@ -869,7 +869,7 @@
             "2": 4
           }],
         "points": 1,
-        "text": ""
+        "text": "<b>Dr. Josef Kateb (Cost: I Point)</b><br> This French Android is famous for pushing the bounds of modern medicine, was the first to perfect the integration of cloned organs into patients, and has been on the forefront of the medical cybernetic field for over 50 years. What sets Josef, aka “The Doc”, apart is his unwavering altruism. He charges little to no money for his services, and frequently offers medical aid to homeless people, as well as traveling great distances to war-tom areas.Thanks to this, he has picked up combat skills from grateful war veterans.<br> A few years ago, he could no longer ignore his calling. He left the medical field and went out to truly help people.<br> Integrated into his body is an Energy Shield. a Tentacle, Survivalist, and Elemental Gauntlets.<br> He has Medical Expert,Tech Skills, Combat Training. Precision, Intelligence, Beloved, and Cybernetics (x4)."
       },
       "kim_song": {
         "member_name": "Kim 'Kitty' Song",
@@ -883,7 +883,7 @@
             "2": 4
           }],
         "points": 3,
-        "text": ""
+        "text": "<b>Kim “Kitty” Song (Cost: 3 Points)</b><br> Kim Song is a decorated Korean Mech Pilot and an accomplished fighter, as well as the wearer of a brand new, experimental suit of power armor that was designed to have the firepower of a Mech.<br> She was selected to pilot this new suit after her old Mech blew up; with her inside, which caused the loss of her limbs. She is rather young; only 24 years old. Song is spunky, upbeat, and has a kind heart. She gets rather competitive in games and in combat, however.<br> Her arms can morph into powerful three-barreled plasma cannons and back.<br> Her Power Armor has Jump Jets, an Energy Shield. Nanobots, Firepower. Enhanced Servos, an Enhanced Shell. Energy Systems, and a Dr. Armor.<br> She has Combat Training. Endurance. Piloting. Beautiful.Tech Skills, and Cybernetics (x4)."
       },
       "faezi_perev": {
         "member_name": "Faezi Perev",
@@ -895,7 +895,7 @@
         },
         "abilities": ["beautiful", "diplomatic", "combat_training", "psionic_enhacement", "special_ops", "psionics"],
         "points": 2,
-        "text": ""
+        "text": "<b>Faezi Perev (Cost: 2 Points)</b><br> Asari consort dancer, bartender, federal spy. information broker, professional assassin, secret agent and crime lord. Few have done as much as Faezi Perev, and she's only 300 years old! She even spent a few years acting as an elite secret agent for the Asari government What makes her so good is her cunning wit her ability to think on her feet her outrageous acting skills, and most of all; her ability to read people like books. She changes her personality to fit into other people's needs and expectations, and then plays them like puppets. She has connections in every government and in most criminal underworlds.<br> Carries a Panther and a Über Blade.<br> Her Suit has an Energy Shield, Jump Jets, and Stealth.<br> She has Beautiful, Diplomatic. Combat Training. Psionic Enhancement. Special Ops. and Psionics."
       },
       "kayvorah endeavor": {
         "member_name": "Kay'Vorah vas Endeavor",
@@ -907,7 +907,7 @@
         },
         "abilities": ["tech_skills", "combat_training", "special_ops", "precision", "beautiful", "peak_physical_fitness"],
         "points": 3,
-        "text": ""
+        "text": "<b>Kay’Vorah vas Endeavor (Cost: 3 Points)</b><br> One of the very few Quarians who, thanks to genetic engineering, can go without her helmet.<br> She’s still likely to sick if she’s in a dirty, unfamiliar area, but a fever or a cold won't kill her or anything.<br> Kay is a master hacker and expert sniper, as well as a master of stealth and infiltration. She serves as a member of the elite Quarian Special Forces.<br> Kay is snarky, flirty, and greatly enjoys friendly banter She wears a fully helmeted bio-suit both as a Space Suit and in order to blend in.<br> She carries a Falcon Sniper Rifle and Tiger Sharks.<br> Her suit has Jump Jets, Stealth, Cyberwarfare Suite, and a Kinetic Shield.<br><br> She has Tech Skills, Combat Training, Special Ops, Precision. Beautiful, and Peak Physical Fitness."
       },
       "refaxamin_guyya": {
         "member_name": "Refa'Xamin vas Gyya",
@@ -921,7 +921,7 @@
             "2": 1
           }, "precision", "hidden_weapons"],
         "points": 1,
-        "text": ""
+        "text": "<b>Refa'Xamin vas Guyya (Cost: I Point)</b><br> Her friends call her Refi.<br> She’s smart as hell, even among Quarians. and she seems to have a knack for FTL engines.<br> She’s so good at it, the Quarians even managed to send her to a decent university, and she graduated with a Doctorate in Applied Physics, with a focus on FTL, in about 5 years. She could fix up any FTL engine by herself, and she’s amazaigly cool under pressure.<br> Socially, she's a wallflower. Refi gets very shy around new people, and it takes her a while to start to open up. She has a lot of passion for what she does, and she's damn good at it. She’s not really a fighter, but she can hold a gun at least and she's better at fixing your ship than any drone or nanobot swarm.<br> She has Intelligence,Tech Skills, Cybernetics (Left Arm), Precision, and Hidden Weapon (Pistol)."
       },
       "yonera": {
         "member_name": "Yonera",
@@ -933,7 +933,7 @@
         },
         "abilities": ["combat_training", "endurance", "psionics", "psionic_enhacement", "rage", "peak_physical_fitness"],
         "points": 2,
-        "text": ""
+        "text": "<b>Yonera (Cost: 2 Points)</b><br> Yonera is a powerful Qunari warrior and Psionic.She agrees with many of the Qunari’s ideals, but disagrees with many of their practices, especially their methods of \"re-education\". She took her leave of the Qunari, and set off as a mercenary which she has been for the last 15 years, honing her skills and building a legendary reputation as a fearsome yet honorable warrior.<br> She retired a few years ago with a sizable wealth, but grew bored quickly, and realized that she wanted to fight to help people, since she had all the money she needed, and so she joined up with you.<br> She carries a Mono-molecular blade and a MAG.<br> Her Space Suit has Nanobots, a Kinetic Shield, Survivalist, and Jump Jets.<br> She has Combat Training, Endurance, Psionics, Psionic Enhancement, Rage, and Peak Physical Fitness."
       },
       "bulwark": {
         "member_name": "Bulwark",
@@ -945,7 +945,7 @@
         },
         "abilities": ["combat_training", "enhanced_senses", "endurance", "peak_physical_fitness"],
         "points": 2,
-        "text": ""
+        "text": "<b>Bulwark (Cost: 2 Points)</b><br> This Qunari soldier gives no name other than Bulwark, and the name is certainly accurate, thanks to his Impact Shield, which has Smart Armor, and it generates blasts of kinetic energy when it is slammed into someone, sending them flying back.<br> He is stoic, disciplined, and still very much in service to the Qunari, who apparently like what you’re doing; helping others with no direct rewards for yourself. So, they sent Bulwark to help you, and maybe spy on you a little. Bulwark is a member of the Antaam, the main Qunari military. He doesn't talk much.<br> He always carries his Energy Blade and his Minigun, which he wields with one hand. His Suit has Enhanced Shell, an Energy Shield, and Dr.Armor.<br> He has Combat Training, Enhanced Senses, Endurance, and Peak Physical Fitness."
       },
       "doz_brutal": {
         "member_name": "Doz the Brutal",
@@ -957,7 +957,7 @@
         },
         "abilities": ["intelligence", "enhanced_senses", "combat_training", "rage", "diplomatic", "tech_skills"],
         "points": 2,
-        "text": ""
+        "text": "<b>Doz the Brutal (Cost: 2 Points)</b><br> Some would call her a warlord, some would call her a monster, she prefers ‘mercenary’.This female Gray is a master of combat, and has been fighting since she was 7 years old. She's almost 130 now. She was once feared as a brutal pirate a few decades ago, but she disappeared at her height, and has re-emerged to join you. She says that she had a crisis of conscience, and she truly wants to help people now. She is clearly no less brutal now, however. She shows no mercy towards the pirates that she once surrounded herself with.<br> She carries a powerful laser rifle, and travels with a loyal yet horrific failed cloning experiment as a guard dog, which she treats very well.<br> Her suit has an Energy Shield, Dr. Armor, Enhanced Servos, and Jump Jets.<br> She has Intelligence, Enhanced Senses, Combat Training, Rage, Diplomatic, and Tech Skills."
       },
       "harnld": {
         "member_name": "Harnld",
@@ -1126,37 +1126,40 @@
         "restriction" : "team",
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "nebula": {
+        "member_name": "Nebula",
+        "race": "celestial",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "not_applicable",
+          "traits": "not_applicable"
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["beautiful", "diplomatic", "psionics", "precision", "superhuman"],
+        "points": 6,
+        "restriction" : "team",
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "lup": {
+        "member_name": "Lup",
+        "race": "altean",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "space_suit",
+          "traits": ["energy_shield", "survivalist", "cyberwarfare_suite", "firepower"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["intelligence", "enhanced_senses", "beautiful", "tech_skills", "combat_training", "psionics", "rage", "psionic_enhacement", "superhuman"],
+        "points": 6,
+        "restriction" : "team",
         "text": ""
       },
-      "dr_morgan_yu": {
-        "member_name": "",
-        "race": "",
+      "eve": {
+        "member_name": "Eve",
+        "race": "android",
         "armor": {
-          "type": "",
-          "traits": ""
+          "type": "body",
+          "traits": ["kinetic_shield", "energy_shield", "nanobots", "cyberwarfare_suite"]
         },
-        "abilities": {},
-        "points": 0,
+        "abilities": ["combat_training", "intelligence", "tech_skills", "piloting", "enhanced_senses", "beautiful", "special_ops", "peak_physical_fitness", "armored", "cybernetics_x4"],
+        "points": 5,
+        "restriction" : "ship",
         "text": ""
       }
     }
