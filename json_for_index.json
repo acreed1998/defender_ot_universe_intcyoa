@@ -968,7 +968,7 @@
         },
         "abilities": ["intelligence", "tech_skills", "immune", "precision", "medical_expert"],
         "points": 1,
-        "text": ""
+        "text": "<b>Harnld (Cost: I Point)</b><br> Harnld is a “Tall Gray”, a male on the upper end of the Gray height scale. He wears clothes, don’t worry.<br> He spent the first 30 or so years in school, getting advanced degrees in xenobiology, gravitational engineering, and aerospace engineering. He's written dozens of dissertations, and has gotten quite a few awards for his studies. And yet, his thirst for adventure kept him up at night. One day, he couldn’t take it anymore, and set out to see the universe for himself, and joined up with you. He’s an absolute genius, and a godsend for when you’re visiting new worlds, or if your ship’s gravity gets fucked up.<br> His Suit has a Dr. Armor, Survivalist, a Tentacle, and an Energy Shield.<br> He has Intelligence,Tech Skills, Immune, Precision, and Medical Expert."
       },
       "esora_teanus": {
         "member_name": "Esora T'eanus",
@@ -979,7 +979,7 @@
         },
         "abilities": ["beautiful", "intelligence", "combat_training", "psionics", "piloting"],
         "points": 2,
-        "text": ""
+        "text": "<b>EsoraT'eanus (Cost: 2 Points)</b><br> Adventurer, explorer, archaeologist, and pilot. Esora really loves to move and get around. She’s been pretty much everywhere; if you want a pilot who’s going to know the ins and outs of most populated star systems, you’re going to want Esora. She tends to be very unprofessional, both in dress and in speech. She’ll often flirt with you and other teammates that she finds attractive. She's a damn good pilot, however. Esora’s more than capable of piloting any ship you could have, and she has a knack for getting out of tight spots, and surviving against nigh-impossible odds.<br> She always carries a Magnum and a Hardlight Blade.<br> Her Suit has Jump Jets, Survivalist, Dr. Armor, and a Kinetic Shield.<br> She has Beautiful, Intelligence, Combat Training, Psionics, and Piloting."
       },
       "aquila": {
         "member_name": "Aquila",
@@ -990,7 +990,7 @@
         },
         "abilities": ["beautiful", "combat_training", "psionics", "precision", "special_ops", "peak_physical_fitness"],
         "points": 3,
-        "text": ""
+        "text": "<b>Aquila (Cost: 3 Points)</b><br> Aquila is an Asari Justicar; a powerful knight-like warrior that travels through Asari space dispensing justice and righting wrongs.The Justicars are an order of ancient warrior-monks, following a strict, black-and-white code that dictates what is right and wrong. Aquila still follows the code, for the most part.<br> Recently she has begun to feel like the code is too restrictive, so she left Asari space. She is often no-nonsense,but she opens up quickly after some drinks. She is always respectful of others though, she's not cold, just serious.<br> She carries an Energy Blade, twin Tiger Sharks, and a PUMA Energy Rifle.<br> Her Suit has a Kinetic Shield, Survivalist, Enhanced Servos, and Smart Armor.<br> She has Beautiful, Combat Training, Psionics, Precision, Special Ops, and Peak Physical Fitness."
       },
       "rio": {
         "member_name": "Rio",
@@ -1001,7 +1001,7 @@
         },
         "abilities": ["enhanced_senses", "immune", "medical_expert", "intelligence", "combat_training"],
         "points": 1,
-        "text": ""
+        "text": "<b>Rio (Cost: I Point)</b><br> Female Aquoid, genetic engineer and doctor. Aquoids are unique due to the fact that there are around 12 different subspecies of Aquoid.AII look pretty similar, but have clear physical differences. Rio’s subspecies prefers the warmest waters of her homeworld, staying around the equator. Like many Aquoids, Rio has a natural skill for genetic engineering and biology, but Rio is exceptionally intelligent, and is unique for her work in advancing genetic engineering in other sentient species. She’s also done some work on terraforming and on Quarians, and helped develop the genetic therapy that was used on Kay’Vorah.<br> She carries a Phaser and a Pulse Grenade Launcher.<br> Her Suit has Survivalist, Energy Gauntlets, and Jump Jets.<br> She has Enhanced Senses, Immune, Medical Expert, Intelligence, and Combat Training."
       },
       "charlie": {
         "member_name": "Charlie",
@@ -1013,7 +1013,7 @@
         },
         "abilities": ["immune", "enhanced_senses", "combat_training", "special_ops", "peak_physical_fitness"],
         "points": 2,
-        "text": ""
+        "text": "<b>Charlie (Cost: 2 Points)</b><br> Charlie is a male Aquoid, around 40 years old, and his subspecies prefers humid areas and deep lakes in rainforests. He’s also one of the first Aquoids to ever marry a human. He is, simply put, an intelligence officer. He can fight if he needs to, and as he works out and trains very often, he can definitely hold his own, but he detests fighting. He prefers to find smart solutions out of problems. He has an inquisitive mind, and he’s very good at surveillance, stealth, and information gathering. He’s also quite skilled in sabotage.<br> He learned ASL from his wife.<br> He carries Tiger Sharks and a Hardlight Blade.<br> His Suit has a Dr. Armor, Jump Jets, a Kinetic Shield, and Survivalist.<br> He has Immune, Enhanced Senses, Combat Training, Special Ops, and Peak Physical Fitness."
       },
       "julea_victolus": {
         "member_name": "Julea Victolus",
@@ -1024,7 +1024,7 @@
         },
         "abilities": ["psionics", "psionic_enhacement", "immune", "combat_training", "special_ops", "precision"],
         "points": 2,
-        "text": ""
+        "text": "<b>JuleaVictolus (Cost: 2 Points)</b><br> Julea is a female Turian Kabal.The Kabal are turians who display psionic abilities and are then trained to become elite special forces units. Julea has retractable, poison-coated claws built into her gauntlets.This poison, which she takes antidotes against every morning (just in case), is a fest acting neurotoxin that locks up motor functions, leaving it’s victim paralyzed and unable to speak. Julea is agile, fast, and quick on her feet. She’s very careful, thorough, and strives to always be prepared. She’s somewhat of a perfectionist, and gets very annoyed when things don't go just right.<br> She carries a Panther and a Falcon Sniper Rifle.<br> Her Suit has Jump Jets, Survivalist, an Energy Shield, and Stealth.<br> She has Psionics, Psionic Enhancement, Immune, Combat Training, Special Ops, and Precision."
       },
       "hunter": {
         "member_name": "The Hunter",
@@ -1036,7 +1036,7 @@
         },
         "abilities": ["precision", "combat_training", "immune", "enhanced_senses", "special_ops", "psionics", "rage", "elementalism", "endurance", "peak_physical_fitness"],
         "points": 3,
-        "text": ""
+        "text": "<b>The Hunter (Cost: 3 Points)</b><br> This bounty hunter is famous for single-handedly taking down ferocious monsters and convicts that had previously killed dozens, if not hundreds of armed soldiers and other bounty hunters. He is well known for his strong code of ethics, excellent parkour skills, and his incredible skill in combat. He’s a decently powerful psionic, but his psionics don’t hold a candle to either his daughters, who also works as a bounty hunter, or his wife's, who works as a college professor.<br> He’s in his mid 50’s, and he’s seen some shit.<br> He always carries his gauss rifle, and his two mono-molecular blades.<br> His Suit has Survivalist, Jump Jets, an Energy Shield, and an Enhanced Shell.<br> He has Precision, Combat Training, Immune, Enhanced Senses, Special Ops, Psionics, Rage, Elementalism, Endurance, and Peak Physical Fitness."
       },
       "kayla_ghost": {
         "member_name": "Kayla the Ghost",
@@ -1048,7 +1048,7 @@
         },
         "abilities": ["precision", "combat_training", "rage", "endurance", "enhanced_senses", "special_ops"],
         "points": 2,
-        "text": ""
+        "text": "<b>Kayla the Ghost (Cost: 2 Points)</b><br> Bom on Aeos; a harsh, unincorporated frontier world that has little more than hot deserts and vast underground resources, Kayla lived a colonist’s life until the age of 10, when one of the many pirate gangs that inhabit the planet raided the town and killed most of the people, except her.This hardened her, and after being taken in by an old soldier, she became The Ghost, the Scourge of Aeos. She is a silent predator, sniping from large distances and never getting spotted. She’s single-handedly cut the huge pirate population down by I /4th over the last 15 years. She’s a tomboy, and it’ll take time for her to warm up and trust you.<br> She carries an Anti-Material Rifle and a Hardlight Blade.<br> Her Suit has Stealth, Survivalist, and a Kinetic Shield.<br> She has Precision, Combat Training, Rage, Endurance, Enhanced Senses, and Special Ops."
       },
       "iris_brauner": {
         "member_name": "Iris Brauner",
@@ -1060,7 +1060,7 @@
         },
         "abilities": ["piloting", "combat_training", "precision", "rage", "endurance", "tech_skills"],
         "points": 3,
-        "text": ""
+        "text": "<b>Iris Brauner (Cost: 3 Points)</b><br> Iris is a famous, decorated mech pilot. She pilots a Jaeger; an elite German battle mech designed for heavy assault. Just one of these is enough to turn the tide of any battle. She’s been training to pilot mechs since she was 9, and she has a natural skill for it.<br> Iris herself is young, cocky, and has a bit of a temper. She often gets into fights, especially bar fights, and she’s somewhat of a loud mouth. Iris is also fiercely defensive of her friends and teammates.<br> She carries Tiger Sharks when not in her Mech.<br> Her Jaeger is equipped with Nanobots, Collapsible. Enhanced Servos, Enhanced Shell, Enhanced Size, Energy Systems, Firepower, Elemental Gauntlets, an Energy Shield, and Jump Jets.<br> Iris has Piloting, Combat Training, Precision. Rage. Endurance, and Tech Skills."
       },
       "sky_tulach": {
         "member_name": "Sky Tulach",
@@ -1072,7 +1072,7 @@
         },
         "abilities": ["beautiful", "beloved", "combat_training", "immune", "precision", "rage", "diplomatic", "special_ops"],
         "points": 2,
-        "text": ""
+        "text": "<b>SkyTulach (Cost: 2 Points)</b><br> Once a powerful gang leader and crime boss, when her crew was engaged by a law enforcement fleet, she fled the battle to escape capture, and her escape pod was picked up by a large group of slavers who put her to work. Within a week, all of those slavers were working for her, and then she killed off all of the ones who refused to stop slaving.This experience has opened her eyes, and she has decided to put her skills to good use, helping you. Sky is very cunning, persuasive, and charismatic. She has a strong distaste for slavery, drug running, and needless brutality. She is beloved for her fairness, ethics, and empathy.<br> She carries a Magnum and a Kinetic Staff.<br> Her Suit is just a space mask and an Energy Shield.<br> She has Beautiful, Beloved, Combat Training, Immune, Precision, Rage, Diplomatic, and Special Ops."
       },
       "sten": {
         "member_name": "Sten",
@@ -1084,7 +1084,7 @@
         },
         "abilities": ["combat_training", "precision", "rage", "endurance", "immune", "peak_physical_fitness"],
         "points": 2,
-        "text": ""
+        "text": "<b>Sten (Cost: 2 Points)</b><br> A hornless Qunari, Sten’s rare lack of one of the defining features of Qunari is seen as a sign of good luck and great potential. Sten is a squad leader in the Beresaad; the section of the Qunari military that holds the scouts, vanguards, and front linesmen. Sten is very, very good at what he does. He's generally a no-nonsense kind of guy, and respects strength, leadership, and direct action.The more you get to know him, the more he’ll warm up and respect you. Small talk, and any needless talking really, annoys him.<br> He carries a Kinetic Warhammer and a Flamethrower.<br> His Suit has Enhanced Servos, a Kinetic Shield. Dr. Armor, and Kinetic Gauntlets.<br> He has Combat Training, Precision, Rage, Endurance. Immune, and Peak Physical Fitness."
       },
       "sun": {
         "member_name": "Sun",
@@ -1099,7 +1099,7 @@
             "2": 1
           }, "combat_training"],
         "points": 3,
-        "text": ""
+        "text": "<b>Sun (Cost: 3 Points)</b><br> Sun is a young human woman, around 19 years old, who was kidnapped at the age of 14 and experimented on in order to create a psionic superweapon. Her body is laced with psionic amplifiers, as is her cybernetic left arm.The scientists who enhanced her succeeded in the psionic enhancement, but when they tried to wipe her memories and reprogram her, they triggered a berserker rage, and she slaughtered everyone in the facility, and then met you, as you came investigating the string of kidnappings. She had calmed down by then, and decided to join up with you. Her memories are fuzzy, and she has quite a bit of trauma.<br> Her psionics allow her to lift and throw up to 10,000 lbs.<br> She carries a shotgun.<br> Her Suit has a Kinetic Shield and Amplifier.<br> She has Psionics, Psionic Enhancement, Precision, Rage, Cybernetics (Left Arm), and Combat Training."
       },
       "sumia_valmaer": {
         "member_name": "Sumia Valmaer",
@@ -1111,7 +1111,7 @@
         },
         "abilities": ["intelligence", "tech_skills", "precision", "combat_training", "special_ops", "beautiful"],
         "points": 2,
-        "text": ""
+        "text": "<b>Sumia Valmaer (Cost: 2 Points)</b><br> This Altean woman left her homeworld for two reasons: adventure, and wealth. She gains both by being a master thief. Despite being one of the few Alteans with no psionic powers, she is easily one of the best infiltrators in the super cluster. She joined up with you for the adventure, and, well, because you’re paying her.<br> Eventually you’ll become friends. She is somewhat of a voyeur, and enjoys snooping around and spying. Sumia is a skilled gymnast, and can break into any vault, or crack any encryption. Only powerful Als could do it better.<br> She carries a Plasma Blade and Pulse Pistols.<br> Her Suit has one of the best Stealth Systems available, she also has Survivalist, a Cyberwarfare Suite, and a Kinetic Shield.<br> She has Intelligence,Tech Skills, Precision, Combat Training, Special Ops, and Beautiful."
       },
       "miki": {
         "member_name": "Miki",
@@ -1124,7 +1124,7 @@
         "abilities": ["combat_training", "beautiful", "special_ops", "diplomatic", "peak_physical_fitness", "enhanced_senses", "precision", "super_soldier"],
         "points": 6,
         "restriction" : "team",
-        "text": ""
+        "text": "<b>Miki (Restriction:Team)<br> (Cost: 6 Points)</b><br> Miki is not just a Kitsune; who by all means are very rare, she is also a Kitsune Super Solider.<br> On top of being able to shapeshift to become identical to humans, asari, gray, aquoids, and qunari, she can also lift over 6000 lbs, run at over 50 mph, her reflexes, regeneration, and accuracy are all enhanced, and she has clearly gone through rigorous combat training. It’s clear that she’s an agent for the Kitsune government, and she was upfront about that. She’s been assigned to keep you safe and to assist you in your adventures.The Kitsune are very interested in you and your capabilities, and wish to have you as an ally in the future, rather than an enemy. Miki herself seems honest, and she’s a sweetheart. She loves poker and gambling games, and she’s occasionally flirty.<br> Miki carries an Über Blade, a Panther, and a PUMA.<br> Her Suit has Jump Jets, an Energy Shield, Smart Armor, and Survivalist.<br> She has Combat Training, Beautiful, Special Ops, Diplomatic, Peak Physical Fitness, Enhanced Senses, Precision, and Super Soldier."
       },
       "nebula": {
         "member_name": "Nebula",
@@ -1136,7 +1136,7 @@
         "abilities": ["beautiful", "diplomatic", "psionics", "precision", "superhuman"],
         "points": 6,
         "restriction" : "team",
-        "text": ""
+        "text": "<b>Nebula (Restriction:Team)<br> (Cost: 6 Points)</b><br> Nebula is a Celestial, one of the very few outside the Crescent Veil, which is the enormous nebula that the Celestials call home. Nebulas body is made up of space gas that she has solidified into a tangible body with her psionic powers. She can shift between a gaseous form and a solid form at will. Nebula is a young Celestial, only 4 or 5 hundred years old, and she grew restless in the Veil. She left to see and explore, and grew sad upon discovering the suffering of innocents. She has decided to temporarily renounce her pacifism, and has joined with you to help others. Nebula is a very curious, bubbly person. She tends to ask many, many questions, but when she’s not doing that, she's floating in front of a large window, meditating. She has no need for a Space Suit, as she does not need to breathe. She can fly through a vacuum under her own power. She also does not need weapons, thanks to her immense psionic powers.When she gets emotional, she disrupts gravity around her. It is unknown if she can die.<br> She has Beautiful, Diplomatic, Psionics, Precision, and Superhuman."
       },
       "lup": {
         "member_name": "Lup",
@@ -1148,7 +1148,7 @@
         "abilities": ["intelligence", "enhanced_senses", "beautiful", "tech_skills", "combat_training", "psionics", "rage", "psionic_enhacement", "superhuman"],
         "points": 6,
         "restriction" : "team",
-        "text": ""
+        "text": "<b>Lup (Restriction: Team)<br> (Cost: 6 Points)</b><br> Lup is an Altean, roughly around 160 years old. Lup and her twin brother are extremely powerful psionics. but whereas Lup got advanced degrees in theoretical physics, aerospace engineering, and biotechnology, her brother became a famous chef instead. Lup is every bit the chef that he is, she just had different goals in mind. After obtaining her degrees, Lup joined the Altean Navy at the age of 70 ( 19 in human terms), and quickly ascended the ranks. However, after numerous engagements and awards, she became upset with the Altean s policy of non-interference when possible, so she left, and travels around helping others where she can.<br> Lup is fascinated with human culture, especially Punk-Rock culture.<br> Lup has powers over Fire, and can both generate and withstand fires of up to 2000 Celsius. She can hurl blasts of fire, propel herself, and even coat her entire body in flame.<br> Lup's Space Suit has an Energy Shield, Survivalist, a Cyberwarfare Suite, and Firepower.<br> Lup has Intelligence, Enhanced Senses, Beautiful, Tech Skills, Combat Training, Psionics (Fire), Rage, Psionic Enhancement and Superhuman (Fire)."
       },
       "eve": {
         "member_name": "Eve",
@@ -1160,7 +1160,7 @@
         "abilities": ["combat_training", "intelligence", "tech_skills", "piloting", "enhanced_senses", "beautiful", "special_ops", "peak_physical_fitness", "armored", "cybernetics_x4"],
         "points": 5,
         "restriction" : "ship",
-        "text": ""
+        "text": "<b>Eve (Restriction: Ship)<br> (Cost: 5 Points)</b><br> The advanced quantum Artificial Intelligence that inhabits your ship has it’s own advanced android platform.The fact that it can inhabit both at the same time is unprecedented. All other Als in existence are relegated to a single platform, be that a ship or an android body. As long as the ship is within I AU of the body. Eve can operate at maximum efficiency in both her ship form and her android form. Any further and she experiences a drop in efficiency. Her android form is resistant to high temperatures, small arms fire, and blunt force trauma. She is equipped with a Kinetic Shield generator and an Energy Shield generator, and she has multiple clusters of alien nanobots that work constantly to keep her android form in top shape. In addition to that, she is a master of cyberwarfare, hacking through enemies defenses within minutes, if not seconds. She is incredibly agile and flexible, moving with the grace of a ballerina, or a master infiltrator. Her android body is also incredibly lifelike. Eve has Com bat Training. Intelligence.Tech Skills, Piloting, Enhanced Senses, Beautiful, Special Ops, Peak Physical Fitness, Cybernetics (x4), and Armored."
       }
     }
   }
