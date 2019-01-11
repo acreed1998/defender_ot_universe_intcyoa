@@ -1198,52 +1198,58 @@
     "opening" : "<b>Drawbacks</b><br>For every taken drawback <b>not</b> required by Boons, you gain 3 pts.",
     "choices" : {
       "lose_some": {
-        "name": "",
-        "text": ""
+        "name": "Lose Some",
+        "text": "<b>Lose Some</b><br> What makes you special, is also what makes you weak. You have developed a degenerative disease due to your Special. Using your special will <b>not<b> accelerate the disease, and your lifespan is shortened by 1/5th."
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "impaired_senses": {
+        "name": "Impaired Senses",
+        "text": "<b>Impaired Senses</b><br> You were born either <b>Deaf</b> or <b>Blind</b>. This drawback may be taken twice in order to be both.<br> Enhanced Senses brings you close to average levels, but you still need glasses and/or hearing aids in order to function."
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "piece_of_junk": {
+        "name": "Piece of Junk",
+        "text": "<b>Piece of Junk</b><br> Your ship will regularly break down, due to old age. You will have to buy a replacement part almost every time you land. Built to Last ensures that your ship will always make it back to port, and not break down in space, but that’s it."
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "daisy_bell": {
+        "name": "Daisy Bell",
+        "text": "<b>Daisy Bell (Requires an AI)</b><br> Your ship’s AI will be..., off.<br> It will be overly protective, invasive, and have little respect for your privacy. It will react negatively, maybe even violently, at any attempt to remove it or change it. It occasionally disobeys orders.",
+        "requires" : "A.I."
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "superstar": {
+        "name": "Superstar",
+        "text": "<b>Superstar<br> (Requires Beloved or Beautiful)</b> Most people recognize you almost instantly. If you get spotted outside by a fan. your location will be plastered all over social media, making stealth and undercover missions much harder.",
+        "requires" : ["Beloved", "Beautiful"]
+
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "vigilante": {
+        "name": "Vigilante",
+        "text": "<b>Vigilante</b><br> In the eyes of most governments; you are a vigilante. News companies frequently post slander about you. and while many people may not believe this, there are some who do. Don't expect gratitude or cooperation from law enforcement."
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "rejection": {
+        "name": "Rejection",
+        "text": "<b>Rejection (Cant take with Armored)</b><br> Something with what makes you special has caused your body to keep rejecting your cybernetics.You have to take medication regularly, and you have to replace cybernetic limbs twice as often. Androids malfunction more often.",
+        "no" : "Armored"
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "wanted": {
+        "name": "Wanted",
+        "text": "<b>Wanted</b><br> There are quite a few groups out there who covet your power.Thankfully, some are smart enough to stay away, but some aren't. Expect an assassin or groups of thugs every other week, and they don't care about collateral damage."
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "overload": {
+        "name": "Overload",
+        "text": "<b>Overload (Requires Psionics)</b><br> With constant psionic use and the passage of time, you will slowly become paranoid, your psionics will start flaring up when you become emotional, and eventually, after a few decades, using your powers will cause you physical pain.",
+        "requires" : "Psionics"
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "bitter_rivalry": {
+        "name": "Bitter Rivalry",
+        "text": "<b>Bitter Rivalry</b><br> Back before you became a Defender, you had a semi-friendly rival throughout schooling. Now that you’ve become famous and powerful, that rival despises you.They will turn others against you, and even try to corrupt your own crew."
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "jinxed": {
+        "name": "jinxed",
+        "text": "<b>Jinxed</b><br> Things just go wrong around you. Coffee pots frequently break or explode, you frequently lose keys, pens, and food that you set down, your personal electronics malfunction and lag more often, and you're prone to tripping over nothing."
       },
-      "lose_some": {
-        "name": "",
-        "text": ""
+      "sabotage": {
+        "name": "Sabotage",
+        "text": "<b>Sabotage (Cant take with Synergy)</b><br> A teammate of your choice will sabotage your ship, weapons, and armor. If you have a Rival, they coerced or blackmailed them into doing it It’s your choice if you accept them back into your crew, but expect a loss in trust from the others.",
+        "no" : "Synergy"
       }
     }
   }
