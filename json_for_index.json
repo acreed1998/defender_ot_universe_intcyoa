@@ -1170,27 +1170,27 @@
       "the_chosen_one": {
         "name": "The Chosen One",
         "drawbacks": 2,
-        "text": ""
+        "text": "<b>The Chosen One<br> (Take 2 Drawbacks)</b><br> Crazy shit just seems to happen to you, like, repeatedly.<br><br> You can select a second option from the \"What makes you Special?\" section."
       },
       "hello_ladies": {
         "name": "Hello Ladies...",
         "drawbacks": 1,
-        "text": ""
+        "text": "<b>Hello Ladies... (Take I Drawback)</b><br> Beautiful, powerful women flock to you like moths to a flame.<br><br> All female Teammates cost I less point, down to a minimum of I point. This includes restricted teammates."
       },
       "time": {
         "name": "Time",
         "drawbacks": 1,
-        "text": ""
+        "text": "<b>Time (Take I Drawback)</b><br> You're not young anymore, you’re closer to being middle aged than anything else, but you've had a lot of time to improve yourself, to go through school and learn.<br> Gain an extra 8 points to be used in the Abilities and Team sections."
       },
       "luck_of_the_draw": {
         "name": "Luck of the Draw",
         "drawbacks": 1,
-        "text": ""
+        "text": "<b>Luck of the Draw<br> (Take I Drawback)</b><br> You were born into a wealth/ family, and you have far more resources than most.<br><br> Gain an extra 10 points to be used in the Armor, Weapons, and Ship sections."
       },
       "born_this_way": {
         "name": "Born This Way",
         "drawbacks": 2,
-        "text": ""
+        "text": "<b>Born This Way (Take 2 Drawbacks)<b><br> You may choose to either become a Turian or a Quarian, or you can defy all laws of nature and become a hybrid of your original species and any other species of your choice, except Celestial. For Kitsunes, you can change your hair color and length, as well as your voice at will, and for Altean, you get dark skin, pointy ears, and you can use your Psionics for twice as long. If you choose Android, you become a synthezoid; half cloned organic, half cybernetic. If you choose Typhon, nothing changes, and you are also unaware of your hybrid status, until you encounter the Typhon, who will kill you on sight For Asari and Altean, your original lifespan increases by 100 years."
       }
     }
   }
