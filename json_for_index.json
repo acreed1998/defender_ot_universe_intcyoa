@@ -1325,17 +1325,17 @@
         "name": "A'ja the Hunter",
         "text": "<b>A’ja the Hunter</b><br> To A'ja’s people,The Hunt is a vital way of life.Their world is heavily jungled,and is full of deadly predators.They are easily the deadliest, but only because of their intelligence and ability to use and create tech.There are plenty of much larger beasts on their world, which they happily hunt for both sport and food.<br> It is a tradition among her people for those who reach adulthood to go out and begin a hunt A hunt can take years and the hunter can end up claiming thousands of trophies. It is not required to come home once the hunt is done, but it is expected to come back eventually. A’ja has great respect for other hunters, and unlike many of her kind, is willing to see other species as capable of being great hunters, rather than just prey. She is aggressive, temperamental, and has little patience for incompetence. She carries an array of weaponry, including various throwing knives, grenades, and both kinetic and energy weapons.<br> Her ship is small, and and has powerful stealth capabilities.You can house it with an upgraded hangar, or she can set it to follow.<br> She has durable metal blades that slide out of her gauntlets.<br> Her Suit has a shoulder-mounted auto plasma cannon, a Stealth system, an Energy Shield, Survivalist, Firepower, and Enhanced Shell.<br> She has Combat Training, Immune, Enhanced Senses, Special Ops, Peak Physical Fitness, Precision, and Rage."
       },
-      "echo": {
-        "name": "",
-        "text": ""
+      "gray_special_ops_division": {
+        "name": "Gray Special Ops Division",
+        "text": "<b>Gray Special Ops Division</b><br> Stationed on your ship will be 3 ten-man squads of elite Gray special ops soldiers.<br> Each wears a light suit of Power Armor, equipped with Energy Shields. Jump Jets. Enhanced Servos. Enhanced Shells. Survivalist, Stealth, and more.<br> Each is capable of easily wielding a heavy weapon, thanks to their Suits.They tend to carry heavy plasma weapons and miniguns.<br> They are loyal and have fierce discipline and skill.<br> They are trained for everything from silent espionage and infiltration, to loud. aggressive assault and extraction.<br> They can provide security and backup for you."
       },
-      "echo": {
-        "name": "",
-        "text": ""
+      "gray_mothership": {
+        "name": "Gray Mothership",
+        "text": "<b>Gray Mothership</b><br> Your ship has been replaced with an older model of the Gray Mothership. While the average modern Gray Mothership is somewhere around 3000 meters in diameter, yours is only 2200 meters in diameter.Your ships hangar bay is large enough to hold frigates, cruisers, and even a small battleship or two.<br> The Gray Motherships are the largest ships in the galaxy. As such, it is also the slowest, the toughest, and the most imposing. Motherships act as the hearts of Gray fleets, staying further back and carrying the military leaders, taking in and giving out military directions and information from every ship in the fleet.<br> It typically has around 50-60 decks, and can hold a crew of up to 300,000."
       },
-      "echo": {
-        "name": "",
-        "text": ""
+      "neuromods": {
+        "name": "Neuromods",
+        "text": "<b>Neuromods</b><br> Not including any that you gain from quests, you can buy up to 3 of these for 2 points each.<br> These DNA rewriters allow you to change your body and mind. Pick from the following list, each costs I Neuromod.<br> -Increase your IQ by 15 Points<br> -Increase your Lifespan by 60 years (Cannot be taken with the Lose Some drawback)<br> -Increase your Strength by 200 lbs and your speed by 8 mph<br> -If you have Elementalism, you can now generate and hurl moderately powerful blasts of fire and lightning<br> -Polyglot you can now rapidly learn new languages, just like toddlers can<br> -Minor Shapeshifting, you can mimic and turn into any object bigger than a pencil or smaller than a chair for up to 5 minutes.<br> -Typhon Detection, you can sense when Typhon are nearby or hiding in mimicry<br> -You can gain either Immune or Enhanced Senses for Free."
       }
     }
   }
