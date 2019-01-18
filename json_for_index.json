@@ -1297,5 +1297,46 @@
         "text": "<b>Into The Breach<br> This is an open-ended quest</b><br> Explorers have found, on a distant, ocean-covered world, at the edge of the galaxy, a rift in time and space, a hole in the universe.They have spent months studying it, and they have determined that it leads to another universe.They have sent drones into it, and they have returned with pictures and data of an identical planet, but in another universe.The rock archway surrounding the breach is massive, large enough that a frigate could fly through without touching the sides.<br> They have contacted you, as they are unsure what possibilities this new universe could hold; it could be teeming with hostile life, and they are unwilling to risk their own lives in such an endeavor, and wish for you and your team to venture through.<br><br><br> What universe will you end up in? Perhaps there will be some familiar faces, but faces that have no memory of you. Perhaps you will even run into a powerful, galactic hero, very much like yourself.<br> Who knows? Adventure awaits."
       }
     }
+  },
+  "unique_reqards" : {
+    "opening" : "<b>Unique Rewards</b>",
+    "choices" : {
+      "echo": {
+        "name": "Echo",
+        "text": "<b>Echo</b><br> This advanced synthezoid was built for combat, and when you freed the synthezoids, she had yet to be given any real personality, so she will have to develop one with you. She knows over 2 dozen different types of martial arts, and is a master in all of them. She can lift up to 4000 lbs, run at 45 mph, and her organic parts can regenerate up to 2x faster than normal humans. She seems to enjoy physical activity, such as sparring and boxing. She has also taken a liking to cats, and giving her one will quickly teach her how to fully manage and suppress her considerable strength.<br> She will stay with you for anywhere from a few months to a few years while she finds herself.<br> Depending on how you interact with her, she will either enter into the military, train to become a police officer and then detective, or she will stay with you. Integrated into her body are Nanobots, an Energy Shield, Enhanced Servos, Stealth, and Survivalist. She has Cybernetics (x4). Enhanced Senses, Beautiful, Combat Training, Hidden Weapons, Special Ops, and Super Soldier."
+      },
+      "upgraded_eve": {
+        "name": "Upgraded Eve",
+        "text": "<b>Upgraded Eve</b><br> Eve's body has been advanced in some major ways.<br> First, she is far more durable now; she can withstand sustained heavy weapons fire, and can endure levels of heat that would melt most metals. She is also far stronger; her body can lift up to 4 tons, she can run at over 65 mph, and she can jump up to 50 feet into the air.<br> On top of that, she is now able to generate a 6 foot long plasma blade that she wields with deadly efficiency, and she can morph her hands into short-range plasma cannons, as well as being able to transform her arms into slow-firing. hard-hitting, long range Mass Accelerator Cannons, apparently designed for anti-tank and anti-air.<br> She is far more aggressive in combat now, and much more willing to charge into some enemies rather than sneak around and take them out.<br> She is also noticeably more protective of you, and if such a thing were possible, more loyal to you as well. Her body is hardened against powerful magnets, EMPs, and radiation."
+      },
+      "ajax": {
+        "name": "Ajax",
+        "text": "<b>Ajax</b><br> This engineer is so legendary for her ability to repair technology that many refer to her as an “Android Doctor”. It doesn’t matter how advanced your body, weapons, armor, ship, or teammates are, she can fix it up in less than an hour. She has poor communication skills, preferring to do her work, listen to music, or just listen in on conversations. She only really talks when she has to, and she isn’t great at holding a conversation. She is also extremely intelligent, with an IQ of somewhere around 210. Her left arm and leg are cybernetic, and she has a powerful plasma torch built into her arm, and a plasma flamethrower built into her leg. She is a tomboy, and will take offense to being treated like a girly girl. She enjoys drinking and just hanging out.<br> She typically carries a Particle Beam Rifle.<br> Her Suit has a Cyberwarfare Suite, a Tentacle, an Energy Shield, and Jump Jets.<br> She has Intelligence,Tech Skills, Beautiful, Combat Training, Cybernetics (Left Arm & Leg), and Hidden Weapons."
+      },
+      "t_h_morgan_yu": {
+        "name": "Typhon-Human Hybrid Morgan Yu",
+        "text": "<b>Typhon-Human Hybrid Morgan Yu</b><br> While on Alex Yu’s station, you discover the truth; Morgan helped Alex with his tests on the Typhon, but was killed when the Typhon first broke containment 8 years ago.The Typhon were re-contained, and Alex managed to infuse Morgan with Typhon matter, bringing her back to life. He erased her memories of the Typhon, after ensuring her personality remained unchanged, and sent her out to live her life. Her Human-Typhon form allows her to take the form of a Typhon at will; a humanoid mass of black tendrils and darkness.<br> In this form she heals rapidly.While she naturally prefers her human form, specifically her Morgan Yu form, she can shapeshift to appear as any other human, and she can even mimic objects around her. She can transform her arms into black tendrils that can multiply and stretch, and be used as deadly weapons, or allow her to grapple and climb up buildings. She also now has psionics that grant her telekinesis, and the ability to create and hurl blasts of fire and electricity.<br> She seems quieter now, but also a little warmer."
+      },
+      "princess_allura": {
+        "name": "Princess Allura",
+        "text": "<b>Princess Allura</b><br> Oldest child of Altea’s reigning king, Allura is set to take over the throne in about a century. She is currently 186 years old, while her father is nearing 470. While she has minimal combat experience, she can still hold and fire a gun with decent accuracy, and she is reasonably athletic. Her real skill comes in her impressive piloting, her cunning and intellect, her mastery of strategy, and her unmatched diplomatic abilities.Also, she’s drop dead gorgeous. On top of all of that, she is one of the few Alteans to possess the power of Space.This power drains her energy far faster than normal psionics do, but they allow her to teleport up to 100 meters away, briefly become intangible or hyper-durable, and even open wormholes that can reach to the other side of a planet.When linked up to her Altean warship, she can open huge wormholes that instantly transport her ship across galaxies. For a cost of 3 Points, you can get this installed in your ship, or if you have a wormhole gate, she can power it. Allura is a sweetheart, with enormous amounts of empathy.This is arguably her greatest weakness; she can’t help but stop for those in need.<br> She carries an Energy Blade and Pulse Pistols. Her Suit has an Energy Shield, Jump Jets, Cyberwarfare Suite, and Dr. Armor. Allura has Piloting, Diplomatic, Beautiful, Psionics (Space), Immune, Intelligence, Beloved, and Combat Training."
+      },
+      "aja_the_hunter": {
+        "name": "A'ja the Hunter",
+        "text": "<b>A’ja the Hunter</b><br> To A'ja’s people,The Hunt is a vital way of life.Their world is heavily jungled,and is full of deadly predators.They are easily the deadliest, but only because of their intelligence and ability to use and create tech.There are plenty of much larger beasts on their world, which they happily hunt for both sport and food.<br> It is a tradition among her people for those who reach adulthood to go out and begin a hunt A hunt can take years and the hunter can end up claiming thousands of trophies. It is not required to come home once the hunt is done, but it is expected to come back eventually. A’ja has great respect for other hunters, and unlike many of her kind, is willing to see other species as capable of being great hunters, rather than just prey. She is aggressive, temperamental, and has little patience for incompetence. She carries an array of weaponry, including various throwing knives, grenades, and both kinetic and energy weapons.<br> Her ship is small, and and has powerful stealth capabilities.You can house it with an upgraded hangar, or she can set it to follow.<br> She has durable metal blades that slide out of her gauntlets.<br> Her Suit has a shoulder-mounted auto plasma cannon, a Stealth system, an Energy Shield, Survivalist, Firepower, and Enhanced Shell.<br> She has Combat Training, Immune, Enhanced Senses, Special Ops, Peak Physical Fitness, Precision, and Rage."
+      },
+      "echo": {
+        "name": "",
+        "text": ""
+      },
+      "echo": {
+        "name": "",
+        "text": ""
+      },
+      "echo": {
+        "name": "",
+        "text": ""
+      }
+    }
   }
 }
