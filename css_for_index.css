@@ -9,9 +9,14 @@ body {
 
 .dialogue {
   text-align: center;
-  color : #0a411c;
+  color : blue;
+  font-size: 150% 
 }
 
+table td b {
+  background-color: black;
+  color: rgb(228, 168, 228);
+}
 table {
   width: 100%;
   table-layout: fixed;
