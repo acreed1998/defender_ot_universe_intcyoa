@@ -1,7 +1,10 @@
 $(document).ready(function () {
-  const navigationDiv = $("<div>").addClass('navigator').text('ggwp').appendTo('body');
+  const $navigationDiv = $("<div>").addClass('navigator').appendTo('body');
   $.getJSON('json_for_index.json', function (data) {
-
+    console.log(data.misc_data.navbar);
+    _.each(data.misc_data.navbar, function(header) {
+      const $newSection = $('<div>').addClass('navButton').append($("<a>").text(header).click(function(){console.log(true)})).appendTo($navigationDiv);
+    });
 /*     // Opening Section Text
     let openingSection = $("<section>");
     openingSection.appendTo('body');
@@ -9,7 +12,8 @@ $(document).ready(function () {
     openingDialogue.addClass('dialogue').html(data.opening).appendTo(openingSection);
 
     // Special Section
-    let specialSection = $("<section>").appendTo('body');
+    let specialSection = $("<section>misc_data.navbarpp
+    _.each(data.misc_data.navbar, functionendTo('body');
     let specialSectionOD = $("<div>").addClass('dialogue').html(data.special.opening).appendTo(specialSection);
     let specialSectionTable = $("<table>").addClass("choiceTable").appendTo(specialSection);
     let specialSectionTableRow = $('<tr>').appendTo(specialSectionTable);

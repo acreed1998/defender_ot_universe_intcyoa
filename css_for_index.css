@@ -11,6 +11,13 @@ body {
   font-size: 150% 
 }
 
+.navButton {
+  vertical-align: middle;
+  text-align: center;
+  display: inline;
+  padding: 6%;
+}
+
 .navigator {
   width: inherit;
   overflow: hidden;
