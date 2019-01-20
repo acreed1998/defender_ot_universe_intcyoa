@@ -1,6 +1,8 @@
 $(document).ready(function () {
+  const navigationDiv = $("<div>").addClass('navigator').text('ggwp').appendTo('body');
   $.getJSON('json_for_index.json', function (data) {
-    // Opening Section Text
+
+/*     // Opening Section Text
     let openingSection = $("<section>");
     openingSection.appendTo('body');
     let openingDialogue = $("<div>");
@@ -124,7 +126,7 @@ $(document).ready(function () {
       }
       let npcSectionTableCell = $("<td>").html(data.non_playable_characters.choices[npcKeys[i]].text).addClass("noChoice").appendTo(npcSectionTableRow);
     }
-    console.log(data.armor.opening);
+    console.log(data.armor.opening); */
   });
 
 });

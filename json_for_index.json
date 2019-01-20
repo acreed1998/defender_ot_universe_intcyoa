@@ -1338,5 +1338,8 @@
         "text": "<b>Neuromods</b><br> Not including any that you gain from quests, you can buy up to 3 of these for 2 points each.<br> These DNA rewriters allow you to change your body and mind. Pick from the following list, each costs I Neuromod.<br> -Increase your IQ by 15 Points<br> -Increase your Lifespan by 60 years (Cannot be taken with the Lose Some drawback)<br> -Increase your Strength by 200 lbs and your speed by 8 mph<br> -If you have Elementalism, you can now generate and hurl moderately powerful blasts of fire and lightning<br> -Polyglot you can now rapidly learn new languages, just like toddlers can<br> -Minor Shapeshifting, you can mimic and turn into any object bigger than a pencil or smaller than a chair for up to 5 minutes.<br> -Typhon Detection, you can sense when Typhon are nearby or hiding in mimicry<br> -You can gain either Immune or Enhanced Senses for Free."
       }
     }
+  },
+  "misc_data" : {
+    "navbar" : [""]
   }
 }

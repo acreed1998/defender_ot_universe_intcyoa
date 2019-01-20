@@ -2,15 +2,21 @@ body {
   height: 100%;
 	width: 100%; 
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #1F1C75;
 }
 
 .dialogue {
   text-align: center;
   color : blue;
   font-size: 150% 
+}
+
+.navigator {
+  width: inherit;
+  overflow: hidden;
+  float: left!important;
+  background-color: black;
+  color: white;
 }
 
 table td b {
