@@ -12,6 +12,14 @@ body {
   color: white;
 }
 
+#opening-div{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 110%;
+  color: white;
+  background-color: #23233C;
+}
+
 .dialogue {
   text-align: center;
   color : blue;
