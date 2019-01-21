@@ -1340,6 +1340,6 @@
     }
   },
   "misc_data" : {
-    "navbar" : ["You", "Armor", "Ship", "Team", "B&D", "Events"]
+    "sections" : ["You", "Armor", "Ship", "Team", "B&D", "Events"]
   }
 }
