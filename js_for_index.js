@@ -10,10 +10,13 @@ $(document).ready(function () {
       const $navDivOptions = $('<div>').addClass('navButton').css({"padding" : `${screenWidth}px`}).attr({ "id": `navbar-div-${jsonRemove(section)}`}).append($("<a>").attr({ "id": `navbar-a-${jsonRemove(section)}` }).text(section).hover(function () { $(this).css({ "color": "yellow" }) }, function () { $(this).css({ "color": "white" }) }).css({"cursor": "pointer"}).click(function(){showSection(jsonRemove(section))})).appendTo($navigationDiv);
       const $bodySection = $('<section>').addClass('bodySection').attr({"id" : `section-${jsonRemove(section)}`}).css({"display" : "none"}).appendTo('body');
     });
-    //populate the You section
+    //populate the Opening section
     if ($('#section-Opening').length !== 0) {
       $('#section-Opening').css({ "display": "block"});
-      $('#section-Opening').append($('<div>').attr({"id" : "opening-div"}).html(data.opening));
+      $('#section-Opening').append($('<div>').addClass('openingText').attr({"id" : "section-Opening-div-opening"}).html(data.opening));
+    }
+    if ($('#section-You').length !== 0) {
+      $('#section-You').append($('<div>').addClass('openingText').attr({"id" : "section-You-div-opening"}).html(data.special.opening));
     }
   });
 });
