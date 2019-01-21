@@ -5,6 +5,13 @@ body {
   background-color: #1F1C75;
 }
 
+.def-header {
+  border-style: outset;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
 .dialogue {
   text-align: center;
   color : blue;
