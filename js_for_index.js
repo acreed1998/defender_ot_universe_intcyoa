@@ -4,6 +4,7 @@ $(document).ready(function () {
   const $navigationDiv = $("<div>").addClass('navigator').appendTo('body');
   //get data from the json and use it to populate the navigation bar and add hidden sections to the body
   $.getJSON('json_for_index.json', function (data) {
+    console.log(data);
     const screenWidth = $('html')[0].scrollWidth / data.misc_data.sections.length / data.misc_data.sections.length;
     const jsonRemove = removeExta;
     _.each(data.misc_data.sections, function(section) {
@@ -17,6 +18,10 @@ $(document).ready(function () {
     }
     if ($('#section-You').length !== 0) {
       $('#section-You').append($('<div>').addClass('openingText').attr({"id" : "section-You-div-opening"}).html(data.special.opening));
+      $('#section-You').append($('<div>').addClass('choices').attr({"id" : "section-You-div-choices"}));
+      _.each(data.special.choices, function(choice, choiceKey) {
+        $('#section-You-div-choices').append($('<div>').addClass('choice').attr({"id" : `section-You-div-choices-${choiceKey}`}).html(choice));
+      })
     }
   });
 });
