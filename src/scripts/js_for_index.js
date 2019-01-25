@@ -18,10 +18,23 @@ $(document).ready(function () {
       $('#section-Opening').append($('<div>').addClass('openingText').attr({"id" : "section-Opening-div-opening"}).html(data.opening));
     }
     if ($('#section-You').length !== 0) {
-      $('#section-You').append($('<div>').addClass('openingText').attr({"id" : "section-You-div-opening"}).html(data.special.opening));
-      $('#section-You').append($('<div>').addClass('choices').attr({"id" : "section-You-div-choices"}));
-      _.each(data.special.choices, function(choice, choiceKey) {
-        $('#section-You-div-choices').append($('<div>').addClass('choice').css({"width" : `25%`}).attr({"id" : `section-You-div-choices-${choiceKey}`}).html(choice));
+      const sectionYouSections = new Array(3);
+      for (let keys in data) {
+        if (keys === "abilities") {
+          sectionYouSections[2] = keys;
+        } else if (keys === "race") {
+          sectionYouSections[1] = keys;
+        } else if (keys === "special") {
+          sectionYouSections[0] = keys;
+        }
+      }
+      _.each(sectionYouSections, function(section) {
+        $('#section-You').append($('<div>').addClass('openingText').attr({ "id": `section-You-div-opening-${section}` }).html(data[`${section}`].opening));
+        $('#section-You').append($('<div>').addClass('choices').attr({ "id": `section-You-div-choices-${section}` }));
+        _.each(data[`${section}`].choices, function (choice, choiceKey) {
+          console.log(choice);
+          $(`#section-You-div-choices-${section}`).append($('<div>').addClass('choice').css({ "width": `25%` }).attr({ "id": `section-You-div-choices-${section}-${choiceKey}` }).html(choice.text?choice.text:choice));
+        })
       })
     }
   });
