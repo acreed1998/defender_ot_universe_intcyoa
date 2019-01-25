@@ -13,7 +13,6 @@ body {
 }
 
 .openingText{
-  margin-top: 5%;
   text-align: center;
   font-size: 110%;
   color: white;
@@ -24,6 +23,20 @@ body {
   text-align: center;
   color : blue;
   font-size: 150% 
+}
+
+.choice {
+  border-style: outset;
+  border-radius: 5%;
+  border-width: 5px;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  background-color: #23233C;
+}
+
+.choices {
+  display: -webkit-inline-flex;
 }
 
 .navButton {
