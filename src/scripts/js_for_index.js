@@ -3,7 +3,7 @@ $(document).ready(function () {
   const $navigationDiv = $("<div>").addClass('navigator').appendTo('body');
   //get data from the json and use it to populate the navigation bar and add hidden sections to the body
   const $mainDiv = $("<div>").addClass('main').appendTo('body');
-  $.getJSON('json_for_index.json', function (data) {
+  $.getJSON('/src/data/json_for_index.json', function (data) {
     console.log(data);
     const screenWidth = $('html')[0].scrollWidth / data.misc_data.sections.length / data.misc_data.sections.length;
     const jsonRemove = removeExta;
@@ -18,24 +18,7 @@ $(document).ready(function () {
       $('#section-Opening').append($('<div>').addClass('openingText').attr({"id" : "section-Opening-div-opening"}).html(data.opening));
     }
     if ($('#section-You').length !== 0) {
-      const sectionYouSections = new Array(3);
-      for (let keys in data) {
-        if (keys === "abilities") {
-          sectionYouSections[2] = keys;
-        } else if (keys === "race") {
-          sectionYouSections[1] = keys;
-        } else if (keys === "special") {
-          sectionYouSections[0] = keys;
-        }
-      }
-      _.each(sectionYouSections, function(section) {
-        $('#section-You').append($('<div>').addClass('openingText').attr({ "id": `section-You-div-opening-${section}` }).html(data[`${section}`].opening));
-        $('#section-You').append($('<div>').addClass('choices').attr({ "id": `section-You-div-choices-${section}` }));
-        _.each(data[`${section}`].choices, function (choice, choiceKey) {
-          console.log(choice);
-          $(`#section-You-div-choices-${section}`).append($('<div>').addClass('choice').css({ "width": `25%` }).attr({ "id": `section-You-div-choices-${section}-${choiceKey}` }).html(choice.text?choice.text:choice));
-        })
-      })
+      
     }
   });
 });
