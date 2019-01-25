@@ -17,9 +17,7 @@ $(document).ready(function () {
       $('#section-Opening').css({ "display": "block"});
       $('#section-Opening').append($('<div>').addClass('openingText').attr({"id" : "section-Opening-div-opening"}).html(data.opening));
     }
-    if ($('#section-You').length !== 0) {
-      
-    }
+    makesYouSpecial();
   });
 });
 
