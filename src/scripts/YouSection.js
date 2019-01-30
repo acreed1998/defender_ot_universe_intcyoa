@@ -1,4 +1,4 @@
-function makesYouSpecial() {
+function youSectionFiller() {
   $.getJSON('src/data/json_for_index.json', function(data) {
     if ($('#section-You').length !== 0) {
       // Populate the makes you special section // 

@@ -17,7 +17,8 @@ $(document).ready(function () {
       $('#section-Opening').css({ "display": "block"});
       $('#section-Opening').append($('<div>').addClass('openingText').attr({"id" : "section-Opening-div-opening"}).html(data.opening));
     }
-    makesYouSpecial();
+    youSectionFiller();
+    armorWeaponsSectionFiller();
   });
 });
 
