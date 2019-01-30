@@ -3,7 +3,7 @@ $(document).ready(function () {
   const $navigationDiv = $("<div>").addClass('navigator').appendTo('body');
   //get data from the json and use it to populate the navigation bar and add hidden sections to the body
   const $mainDiv = $("<div>").addClass('main').appendTo('body');
-  $.getJSON('/src/data/json_for_index.json', function (data) {
+  $.getJSON('src/data/json_for_index.json', function (data) {
     console.log(data);
     const screenWidth = $('html')[0].scrollWidth / data.misc_data.sections.length / data.misc_data.sections.length;
     const jsonRemove = removeExta;
