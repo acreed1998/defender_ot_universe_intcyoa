@@ -19,6 +19,7 @@ $(document).ready(function () {
     }
     youSectionFiller();
     armorWeaponsSectionFiller();
+    shipSectionFiller();
   });
 });
 
