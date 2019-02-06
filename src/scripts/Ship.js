@@ -21,6 +21,32 @@ function shipSectionFiller() {
         $(`#section-Ship-div-shipStyles-row-${row}`).append($('<div>').addClass('choice').css({ 'width': `33%` }).attr({ 'id': `#section-Ship-div-shipStyles-${choiceKey}`}).html(choice.text));
         counter++;
       });
+
+      //Populate the Ship Traits Section//
+      $('#section-Ship').append($('<div>').addClass('openingText').attr({'id' : 'section-Ship-div-shipTraits-opening'}).html(data.ship_traits.opening));
+      $('#section-Ship').append($('<div>').addClass('choicesHolder').attr({'id' : 'section-Ship-div-shipTraits'}));
+      counter = 0;
+      row = 0;
+      const rowMarkers = [4, 8, 12, 16, 20, 24, 28, 31, 34] 
+      _.each(data.ship_traits.choices, (choice, choiceKey) => {
+        if (rowMarkers.indexOf(counter) !== -1) {
+          row = addRow(row);
+        }
+        if (row === 7 || row === 8) {
+          const parentWidth = $(`#section-Ship-div-shipTraits-row-${row - 1}`)[0].scrollWidth;
+          console.log(parentWidth);
+          $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice three-row').css({ 'width': '33%' }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
+        } else {
+          $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
+        }
+        counter++;
+      });
     }
   });
+}
+//helper function for adding rows to uneven tables//
+function addRow(rowNum) {
+  $('#section-Ship-div-shipTraits').append($('<div>').addClass('choices').attr({'id' : `section-Ship-div-shipTraits-row-${rowNum}`}));
+  rowNum = rowNum + 1;
+  return rowNum;
 }
