@@ -17,7 +17,7 @@ function shipSectionFiller(data) {
         row++;
         $('#section-Ship-div-shipStyles').append($('<div>').addClass('choices').attr({'id' : `section-Ship-div-shipStyles-row-${row}`}));
       }
-      $(`#section-Ship-div-shipStyles-row-${row}`).append($('<div>').addClass('choice').css({ 'width': `${Math.floor(screen.availWidth) * 0.33}px` }).attr({ 'id': `#section-Ship-div-shipStyles-${choiceKey}`}).html(choice.text));
+      $(`#section-Ship-div-shipStyles-row-${row}`).append($('<div>').addClass('choice').css({ 'width': `${Math.floor(screen.availWidth) * 0.33}px` }).attr({ 'id': `section-Ship-div-shipStyles-${choiceKey}`}).html(choice.text));
       counter++;
     });
 
