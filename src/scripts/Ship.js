@@ -34,8 +34,7 @@ function shipSectionFiller() {
         }
         if (row === 7 || row === 8) {
           const parentWidth = $(`#section-Ship-div-shipTraits-row-${row - 1}`)[0].scrollWidth;
-          console.log(parentWidth);
-          $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice three-row').css({ 'width': '33%' }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
+          $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice three-row').css({ 'width': `${Math.floor(screen.availWidth) * 0.33}px` }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
         } else {
           $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
         }
