@@ -21,6 +21,7 @@ $(document).ready(function () {
     armorWeaponsSectionFiller(data);
     shipSectionFiller(data);
     teamSectionFiller(data);
+    boonsAndDrawbacksSectionFiller(data);
   });
 });
 
