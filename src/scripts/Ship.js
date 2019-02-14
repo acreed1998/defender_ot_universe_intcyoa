@@ -28,7 +28,7 @@ function shipSectionFiller(data) {
     row = 0;
     const rowMarkers = [4, 8, 12, 16, 20, 24, 28, 31, 34] 
     _.each(data.ship_traits.choices, (choice, choiceKey) => {
-      if (rowMarkers.indexOf(counter) !== -1) {
+      if (_.contains(rowMarkers, counter)) {
         row = addRow(row);
       }
       if (row === 7 || row === 8) {

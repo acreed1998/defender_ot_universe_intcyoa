@@ -22,6 +22,7 @@ $(document).ready(function () {
     shipSectionFiller(data);
     teamSectionFiller(data);
     boonsAndDrawbacksSectionFiller(data);
+    eventsSectionFiller(data);
   });
 });
 
