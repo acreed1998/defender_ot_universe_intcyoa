@@ -1298,7 +1298,7 @@
       }
     }
   },
-  "unique_reqards" : {
+  "unique_rewards" : {
     "opening" : "<b>Unique Rewards</b>",
     "choices" : {
       "echo": {
