@@ -11,9 +11,9 @@ function boonsAndDrawbacksSectionFiller(data) {
         row = addRowB(row);
       }
       if (row === 2) {
-        $(`#section-B-D-div-boons-row-${row - 1}`).removeClass('choices').append($('<div>').addClass('choice centered').css({'width' : '50%'}).attr({'id' : `section-B-D-div-boons-${choiceKey}`}).html(choice.text));
+        $(`#section-B-D-div-boons-row-${row - 1}`).removeClass('choices').append($('<div>').addClass('choice centered boons').css({'width' : '50%'}).attr({'id' : `section-B-D-div-boons-${choiceKey}`}).data({'points' : choice.drawbacks}).html(choice.text));
       } else {
-        $(`#section-B-D-div-boons-row-${row - 1}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-B-D-div-boons-${choiceKey}`}).html(choice.text));
+        $(`#section-B-D-div-boons-row-${row - 1}`).append($('<div>').addClass('choice boons').css({ 'width': '25%' }).attr({ 'id': `section-B-D-div-boons-${choiceKey}` }).data({ 'points': choice.drawbacks }).html(choice.text));
       }
       counter++;
     });
