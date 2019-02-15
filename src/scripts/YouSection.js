@@ -15,9 +15,9 @@ function youSectionFiller(data) {
     _.each(data.race.choices, function(choice, choiceKey){
       if (counter % 3 === 0) {
         row++;
-        $(`#section-You-div-races`).append($('<div>').addClass('choices').attr({'id' : `section-You-div-races-row-${row}`}));
+        $(`#section-You-div-races`).append($('<div>').addClass('choices').css({ 'width': '100%' }).attr({'id' : `section-You-div-races-row-${row}`}));
       }
-      $(`#section-You-div-races-row-${row}`).append($('<div>').addClass('choice').css({ 'width': `${Math.floor(screen.availWidth) * 0.33}px`}).attr({'id' : `section-You-div-races-${choiceKey}`}).html(choice.text));
+      $(`#section-You-div-races-row-${row}`).append($('<div>').addClass('choice').css({ 'width': `33.35%`}).attr({'id' : `section-You-div-races-${choiceKey}`}).html(choice.text));
       counter++;
     });
 

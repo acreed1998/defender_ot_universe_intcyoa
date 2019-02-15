@@ -2,9 +2,9 @@ function armorWeaponsSectionFiller(data) {
   if ($('#section-Armor---Weapons').length !== 0) {
     // Populate the armor opening //
     $('#section-Armor---Weapons').append($('<div>').addClass('openingText').attr({'id' : 'section-ArmorWeapons-div-armor-opening'}).html(data.armor.opening));
-    $('#section-Armor---Weapons').append($('<div>').addClass('choices').attr({ 'id': 'section-ArmorWeapons-div-armor'}));
+    $('#section-Armor---Weapons').append($('<div>').css({ 'width': '100%' }).addClass('choices').attr({ 'id': 'section-ArmorWeapons-div-armor'}));
     _.each(data.armor.choices, function(choice, choiceKey){
-      $('#section-ArmorWeapons-div-armor').append($('<div>').addClass('choice').css({ 'width': `${Math.floor(screen.availWidth) * 0.33}px` }).attr({ 'id': `section-ArmorWeapons-div-armor-${choiceKey}`}).html(choice.text));
+      $('#section-ArmorWeapons-div-armor').append($('<div>').addClass('choice').css({ 'width': `33.35%` }).attr({ 'id': `section-ArmorWeapons-div-armor-${choiceKey}`}).html(choice.text));
     });
 
     // Populate the armor traits section //

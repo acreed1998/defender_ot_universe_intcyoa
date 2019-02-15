@@ -15,9 +15,9 @@ function shipSectionFiller(data) {
     _.each(data.ship_style.choices, (choice, choiceKey) => {
       if (counter % 3 === 0) {
         row++;
-        $('#section-Ship-div-shipStyles').append($('<div>').addClass('choices').attr({'id' : `section-Ship-div-shipStyles-row-${row}`}));
+        $('#section-Ship-div-shipStyles').append($('<div>').addClass('choices').css({'width' : '100%'}).attr({'id' : `section-Ship-div-shipStyles-row-${row}`}));
       }
-      $(`#section-Ship-div-shipStyles-row-${row}`).append($('<div>').addClass('choice').css({ 'width': `${Math.floor(screen.availWidth) * 0.33}px` }).attr({ 'id': `section-Ship-div-shipStyles-${choiceKey}`}).html(choice.text));
+      $(`#section-Ship-div-shipStyles-row-${row}`).append($('<div>').addClass('choice').css({ 'align-items': 'stretch', 'width': `calc(100% / 3)` }).attr({ 'id': `section-Ship-div-shipStyles-${choiceKey}`}).html(choice.text));
       counter++;
     });
 
@@ -32,7 +32,7 @@ function shipSectionFiller(data) {
         row = addRow(row);
       }
       if (row === 7 || row === 8) {
-        $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice three-row').css({ 'width': `${Math.floor(screen.availWidth) * 0.33}px` }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
+        $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice three-row').css({ 'align-items': 'stretch', 'width': 'calc(100% / 3)' }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
       } else {
         $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
       }
@@ -42,7 +42,7 @@ function shipSectionFiller(data) {
 }
 //helper function for adding rows to uneven tables//
 function addRow(rowNum) {
-  $('#section-Ship-div-shipTraits').append($('<div>').addClass('choices').attr({'id' : `section-Ship-div-shipTraits-row-${rowNum}`}));
+  $('#section-Ship-div-shipTraits').append($('<div>').addClass('choices').css({ 'width': '100%' }).attr({'id' : `section-Ship-div-shipTraits-row-${rowNum}`}));
   rowNum = rowNum + 1;
   return rowNum;
 }
