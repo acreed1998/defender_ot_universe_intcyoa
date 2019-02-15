@@ -4,7 +4,7 @@ function armorWeaponsSectionFiller(data) {
     $('#section-Armor---Weapons').append($('<div>').addClass('openingText').attr({'id' : 'section-ArmorWeapons-div-armor-opening'}).html(data.armor.opening));
     $('#section-Armor---Weapons').append($('<div>').css({ 'width': '100%' }).addClass('choices').attr({ 'id': 'section-ArmorWeapons-div-armor'}));
     _.each(data.armor.choices, function(choice, choiceKey){
-      $('#section-ArmorWeapons-div-armor').append($('<div>').addClass('choice').css({ 'width': `33.35%` }).attr({ 'id': `section-ArmorWeapons-div-armor-${choiceKey}`}).html(choice.text));
+      $('#section-ArmorWeapons-div-armor').append($('<div>').addClass('choice').css({ 'width': `33.35%` }).data({ 'points': choice.points }).attr({ 'id': `section-ArmorWeapons-div-armor-${choiceKey}`}).html(choice.text));
     });
 
     // Populate the armor traits section //
@@ -17,7 +17,7 @@ function armorWeaponsSectionFiller(data) {
         row++;
         $(`#section-ArmorWeapons-div-armorTraits`).append($('<div>').addClass('choices').attr({'id' : `section-ArmorWeapons-div-armorTraits-row-${row}`}));
       }
-      $(`#section-ArmorWeapons-div-armorTraits-row-${row}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-ArmorWeapons-div-armorTraits-${choiceKey}`}).html(choice.text));
+      $(`#section-ArmorWeapons-div-armorTraits-row-${row}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).data({ 'points': choice.points }).attr({ 'id': `section-ArmorWeapons-div-armorTraits-${choiceKey}`}).html(choice.text));
       counter++;
     });
 
@@ -31,7 +31,7 @@ function armorWeaponsSectionFiller(data) {
         row++;
         $('#section-ArmorWeapons-div-weapons').append($('<div>').addClass('choices').attr({'id' : `section-ArmorWeapons-div-weapons-row-${row}`}));
       }
-      $(`#section-ArmorWeapons-div-weapons-row-${row}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-ArmorWeapons-div-weapons-${choiceKey}`}).html(choice.text));
+      $(`#section-ArmorWeapons-div-weapons-row-${row}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).data({ 'points': choice.points }).attr({ 'id': `section-ArmorWeapons-div-weapons-${choiceKey}`}).html(choice.text));
       counter++;
     });
   }  

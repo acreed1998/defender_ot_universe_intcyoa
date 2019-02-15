@@ -4,7 +4,7 @@ function shipSectionFiller(data) {
     $("#section-Ship").append($('<div>').addClass('openingText').attr({'id' : 'section-Ship-div-ship-opening'}).html(data.ship.opening));
     $("#section-Ship").append($('<div>').addClass('choices').attr({'id' : 'section-Ship-div-ship'}));
     _.each(data.ship.choices, function(choice, choiceKey) {
-      $('#section-Ship-div-ship').append($('<div>').addClass('choice').css({'width' : '25%'}).attr({'id' : `section-Ship-div-ship-${choiceKey}`}).html(choice.text));
+      $('#section-Ship-div-ship').append($('<div>').addClass('choice').css({ 'width': '25%' }).data({ 'points': choice.points }).attr({'id' : `section-Ship-div-ship-${choiceKey}`}).html(choice.text));
     });
 
     //Populate the Ship Style Section//
@@ -17,7 +17,7 @@ function shipSectionFiller(data) {
         row++;
         $('#section-Ship-div-shipStyles').append($('<div>').addClass('choices').css({'width' : '100%'}).attr({'id' : `section-Ship-div-shipStyles-row-${row}`}));
       }
-      $(`#section-Ship-div-shipStyles-row-${row}`).append($('<div>').addClass('choice').css({ 'align-items': 'stretch', 'width': `calc(100% / 3)` }).attr({ 'id': `section-Ship-div-shipStyles-${choiceKey}`}).html(choice.text));
+      $(`#section-Ship-div-shipStyles-row-${row}`).append($('<div>').addClass('choice').data({ 'points': choice.points }).css({ 'align-items': 'stretch', 'width': `calc(100% / 3)` }).attr({ 'id': `section-Ship-div-shipStyles-${choiceKey}`}).html(choice.text));
       counter++;
     });
 
@@ -32,9 +32,9 @@ function shipSectionFiller(data) {
         row = addRow(row);
       }
       if (row === 7 || row === 8) {
-        $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice three-row').css({ 'align-items': 'stretch', 'width': 'calc(100% / 3)' }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
+        $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice three-row').css({ 'align-items': 'stretch', 'width': 'calc(100% / 3)' }).data({ 'points': choice.points, 'upgrade' : choice.upgrade }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
       } else {
-        $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
+        $(`#section-Ship-div-shipTraits-row-${row - 1}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).data({ 'points': choice.points, 'upgrade': choice.upgrade }).attr({ 'id': `section-Ship-div-shipTraits-${choiceKey}` }).html(choice.text));
       }
       counter++;
     });

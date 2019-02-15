@@ -31,7 +31,7 @@ function youSectionFiller(data) {
         row++;
         $(`#section-You-div-abilities`).append($('<div>').addClass('choices').attr({'id' : `section-You-div-abilities-row-${row}`}));
       }
-      $(`#section-You-div-abilities-row-${row}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-You-div-abilities-${choiceKey}` }).html(choice.text));
+      $(`#section-You-div-abilities-row-${row}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-You-div-abilities-${choiceKey}` }).data({'points' : choice.points}).html(choice.text));
       counter++;
     });
   }

@@ -1,6 +1,6 @@
 $(document).ready(function () {
   //create the navigation bar
-  const $navigationDiv = $("<div>").addClass('navigator').appendTo('body');
+  const $navigationDiv = $("<div>").addClass('navigator centeredChoice').css('width', '100%').appendTo('body');
   //get data from the json and use it to populate the navigation bar and add hidden sections to the body
   const $mainDiv = $("<div>").addClass('main').appendTo('body');
   $.getJSON('src/data/json_for_index.json', function (data) {
@@ -9,7 +9,7 @@ $(document).ready(function () {
     const jsonRemove = removeExta;
     const getTheWidth = getWidth;
     _.each(data.misc_data.sections, function(section) {
-      const $navDivOptions = $('<div>').addClass('navButton').css({"padding" : `${screenWidth}px`}).attr({ "id": `navbar-div-${jsonRemove(section)}`}).append($("<a>").attr({ "id": `navbar-a-${jsonRemove(section)}` }).text(section).hover(function () { $(this).css({ "color": "yellow" }) }, function () { $(this).css({ "color": "white" }) }).css({"cursor": "pointer"}).click(function(){showSection(jsonRemove(section))})).appendTo($navigationDiv);
+      const $navDivOptions = $('<div>').addClass('navButton centered').css({ "width": `calc(100% / 8)`, 'padding': `calc(100% / 8 / 4)`}).attr({ "id": `navbar-div-${jsonRemove(section)}`}).append($("<a>").attr({ "id": `navbar-a-${jsonRemove(section)}` }).text(section).hover(function () { $(this).css({ "color": "yellow" }) }, function () { $(this).css({ "color": "white" }) }).css({"cursor": "pointer"}).click(function(){showSection(jsonRemove(section))})).appendTo($navigationDiv);
       const $bodySection = $('<section>').addClass('bodySection').attr({"id" : `section-${jsonRemove(section)}`}).css({"display" : "none"}).appendTo($mainDiv);
     });
     //populate the Opening section
