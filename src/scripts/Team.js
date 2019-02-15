@@ -10,7 +10,7 @@ function teamSectionFiller(data) {
         row++;
         $('#section-Team-div-team').append($('<div>').addClass('choices').attr({ 'id': `section-Team-div-team-row-${row}`}));
       }
-      $(`#section-Team-div-team-row-${row}`).append($('<div>').addClass('choice').css({'width' : '50%'}).attr({'id' : `section-Team-div-team-${choiceKey}`}).html(choice.text));
+      $(`#section-Team-div-team-row-${row}`).append($('<div>').addClass('choice').css({ 'width': '50%' }).attr({ 'id': `section-Team-div-team-${choiceKey}` }).data({ 'points': choice.points }).html(choice.text));
       counter++;
     });
   }
