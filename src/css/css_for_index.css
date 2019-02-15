@@ -35,6 +35,9 @@ body {
   background-color: #23233C;
 }
 
+.centeredChoice {
+}
+
 .choices {
   display: -webkit-inline-flex;
 }
