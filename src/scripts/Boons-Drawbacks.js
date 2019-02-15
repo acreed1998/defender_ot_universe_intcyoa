@@ -11,7 +11,7 @@ function boonsAndDrawbacksSectionFiller(data) {
         row = addRowB(row);
       }
       if (row === 2) {
-        $(`#section-B-D-div-boons-row-${row - 1}`).append($('<div>').addClass('choice').css({'width' : '50%'}).attr({'id' : `section-B-D-div-boons-${choiceKey}`}).html(choice.text));
+        $(`#section-B-D-div-boons-row-${row - 1}`).removeClass('choices').append($('<div>').addClass('choice centered').css({'width' : '50%'}).attr({'id' : `section-B-D-div-boons-${choiceKey}`}).html(choice.text));
       } else {
         $(`#section-B-D-div-boons-row-${row - 1}`).append($('<div>').addClass('choice').css({ 'width': '25%' }).attr({ 'id': `section-B-D-div-boons-${choiceKey}`}).html(choice.text));
       }
@@ -34,7 +34,7 @@ function boonsAndDrawbacksSectionFiller(data) {
 
 // helper function for adding rows to uneven tables//
 function addRowB(rowNum) {
-  $('#section-B-D-div-boons').append($('<div>').addClass('choices').attr({ 'id': `section-B-D-div-boons-row-${rowNum}` }));
+  $('#section-B-D-div-boons').append($('<div>').addClass('choices centeredChoice').attr({ 'id': `section-B-D-div-boons-row-${rowNum}` }));
   rowNum = rowNum + 1;
   return rowNum;
 }

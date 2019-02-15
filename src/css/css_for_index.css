@@ -36,6 +36,15 @@ body {
 }
 
 .centeredChoice {
+  text-align:center;
+}
+
+.centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  /* inline-block space fix */
+  margin-right:-4px;
 }
 
 .choices {

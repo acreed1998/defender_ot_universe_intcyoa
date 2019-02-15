@@ -1340,6 +1340,6 @@
     }
   },
   "misc_data" : {
-    "sections" : ["Opening", "You", "Armor & Weapons", "Ship", "Team", "B&D", "Events", "NPR"]
+    "sections" : ["Opening", "You", "Armor & Weapons", "Ship", "NPR", "Team", "B&D", "Events"]
   }
 }
