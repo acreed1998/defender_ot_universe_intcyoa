@@ -25,7 +25,7 @@ function eventsSectionFiller(data) {
         row = addRowC(row);
       }
       if (row === 2 || row === 3 || row === 5) {
-        $(`#section-Events-div-uniqueRewards-row-${row - 1}`).append($('<div>').addClass('choice').css({'width' : '75%'}).attr({'id' : `section-Events-div-${choiceKey}`}).html(choice.text));
+        $(`#section-Events-div-uniqueRewards-row-${row - 1}`).append($('<div>').addClass('choice centeredChoice').css({ 'width': `${Math.floor(screen.availWidth) * 0.75}px`}).attr({'id' : `section-Events-div-${choiceKey}`}).html(choice.text));
       } else {
         $(`#section-Events-div-uniqueRewards-row-${row - 1}`).append($('<div>').addClass('choice').css({ 'width': '50%' }).attr({ 'id': `section-Events-div-${choiceKey}`}).html(choice.text));
       }

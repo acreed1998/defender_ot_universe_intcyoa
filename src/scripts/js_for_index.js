@@ -23,6 +23,7 @@ $(document).ready(function () {
     teamSectionFiller(data);
     boonsAndDrawbacksSectionFiller(data);
     eventsSectionFiller(data);
+    nprSectionFiller(data);
   });
 });
 
